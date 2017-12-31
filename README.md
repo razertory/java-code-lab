@@ -1,14 +1,13 @@
-# datastructure
+# Data Structure - Java Implementation
 
-基于@[buptdavid](https://github.com/buptdavid)的[数据结构和算法](https://github.com/buptdavid/datastructure)项目。
-
-🙏源作者的优质内容。
-准备工作
+🙏感谢源作者 @[buptdavid](https://github.com/buptdavid)
+---
+🔧环境和工具
 ------
-  1 为你的系统安装Maven  
-  2 Setup环境 请在终端命令行上运行 “mvn clean install -DskipTests”， 然后再运行 “mvn eclipse:eclipse”,将项目Import到你的Eclipse中
+  1. install Java & Maven for your OS  
+  2. Idea or Eclipse
 
-  目录
+# 📖 目录
 ------
 * 线形
   1. 字符串 [字符串压缩](https://github.com/razertory/datastructure/blob/master/src/main/java/org/buptdavid/datastructure/array/CompressStr.java) [矩阵](https://github.com/razertory/datastructure/blob/master/src/main/java/org/buptdavid/datastructure/array/SetZeroMatrix.java) [String的秘密](https://github.com/razertory/datastructure/blob/master/src/main/java/org/buptdavid/datastructure/string/StringEqual.java)
