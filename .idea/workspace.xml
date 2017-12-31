@@ -1,7 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4861b9b5-c9c0-4061-b12a-1f3f66e71e53" name="Default" comment="" />
+    <list default="true" id="4861b9b5-c9c0-4061-b12a-1f3f66e71e53" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/Node.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/Node.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/array/CompressStr.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/array/CompressStr.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/array/SetZeroMatrix.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/array/SetZeroMatrix.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/designPatterns/singleton/Singleton.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/designPatterns/singleton/Singleton.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/designPatterns/singleton/classic/Singleton.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/designPatterns/singleton/classic/Singleton.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/designPatterns/singleton/staticInnerClass/Singleton.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/designPatterns/singleton/staticInnerClass/Singleton.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/designPatterns/singleton/statics/Singleton.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/designPatterns/singleton/statics/Singleton.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/designPatterns/singleton/threadSafety/Singleton.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/designPatterns/singleton/threadSafety/Singleton.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/designPatterns/singleton/threadSafetyVolatile/Singleton.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/designPatterns/singleton/threadSafetyVolatile/Singleton.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/graph/DirectedGraphPathCheck.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/graph/DirectedGraphPathCheck.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/graph/GraphNode.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/graph/GraphNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/graph/GraphSearch.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/graph/GraphSearch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/aio/AcceptCompletionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/aio/AcceptCompletionHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/aio/AsyncTimeClientHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/aio/AsyncTimeClientHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/aio/AsyncTimeServerHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/aio/AsyncTimeServerHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/aio/ReadCompletionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/aio/ReadCompletionHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/aio/TimeClient.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/aio/TimeClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/aio/TimeServer.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/aio/TimeServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/bio/TimeClient.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/bio/TimeClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/bio/TimeClientHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/bio/TimeClientHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/bio/TimeServer.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/bio/TimeServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/bio/TimeServerHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/bio/TimeServerHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/fakenio/TimeServer.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/fakenio/TimeServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/fakenio/TimeServerHandlerExecutePool.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/fakenio/TimeServerHandlerExecutePool.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/netty/serializable/SubReqClient.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/netty/serializable/SubReqClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/netty/serializable/SubReqClientHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/netty/serializable/SubReqClientHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/netty/serializable/SubReqServer.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/netty/serializable/SubReqServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/netty/serializable/SubReqServerHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/netty/serializable/SubReqServerHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/netty/serializable/SubscribeReq.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/netty/serializable/SubscribeReq.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/netty/serializable/SubscribeResp.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/netty/serializable/SubscribeResp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/netty/tcpacketsplicing/TimeClient.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/netty/tcpacketsplicing/TimeClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/netty/tcpacketsplicing/TimeClientHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/netty/tcpacketsplicing/TimeClientHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/netty/tcpacketsplicing/TimeServer.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/netty/tcpacketsplicing/TimeServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/netty/tcpacketsplicing/TimeServerHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/netty/tcpacketsplicing/TimeServerHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/nio/MultiplexerTimeServer.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/nio/MultiplexerTimeServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/nio/TimeClient.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/nio/TimeClient.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/nio/TimeClientHandle.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/nio/TimeClientHandle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/io/nio/TimeServer.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/io/nio/TimeServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/linkedlist/DeleteDups.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/linkedlist/DeleteDups.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/linkedlist/LinkedListLoop.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/linkedlist/LinkedListLoop.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/linkedlist/SortWithValue.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/linkedlist/SortWithValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/queue/IQueue.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/queue/IQueue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/queue/Queue.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/queue/Queue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/queue/QueueWith2Stack.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/queue/QueueWith2Stack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/search/BinarySearch.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/search/BinarySearch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/sort/BubbleSort.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/BubbleSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/sort/ISort.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/ISort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/sort/InsertOptimizeSort.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/InsertOptimizeSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/sort/InsertSort.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/InsertSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/sort/MergeSort.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/MergeSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/sort/QuickSort.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/QuickSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/sort/SelectionSort.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/SelectionSort.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/stack/Hannotower.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/stack/Hannotower.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/stack/IStack.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/stack/IStack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/stack/SetOfStacks.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/stack/SetOfStacks.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/stack/Stack.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/stack/Stack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/stack/StackCapacity.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/stack/StackCapacity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/stack/StackWithMin.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/stack/StackWithMin.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/string/StringEqual.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/string/StringEqual.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/ChopStickLocked.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/ChopStickLocked.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/ChopStickUnLocked.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/ChopStickUnLocked.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/ExtendThread.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/ExtendThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/ExtendThreadRun.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/ExtendThreadRun.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/LockedATM.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/LockedATM.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/LockedATMThread.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/LockedATMThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/PhilosopherLocked.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/PhilosopherLocked.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/PhilosopherLockedEat.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/PhilosopherLockedEat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/PhilosopherUnLocked.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/PhilosopherUnLocked.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/PhilosopherUnLockedEat.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/PhilosopherUnLockedEat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/RunableThread.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/RunableThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/SynchronizedObject.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/SynchronizedObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/SynchronizedThread.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/SynchronizedThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/lockcondition/Bank.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/lockcondition/Bank.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/lockcondition/SynchBankTest.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/lockcondition/SynchBankTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/lockcondition/TransferRunnable.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/lockcondition/TransferRunnable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/threadpool/ThreadPoolTest.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/threadpool/ThreadPoolTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/usesynchronized/Bank.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/usesynchronized/Bank.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/usesynchronized/SynchBankTest2.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/usesynchronized/SynchBankTest2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/thread/usesynchronized/TransferRunnable.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/thread/usesynchronized/TransferRunnable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/tree/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/tree/BinarySearchTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/tree/CheckBalanceTree.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/tree/CheckBalanceTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/tree/CommonAncestorSearch.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/tree/CommonAncestorSearch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/tree/MinBinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/tree/MinBinaryTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/tree/TreeNode.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/tree/TreeNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/buptdavid/datastructure/tree/TreeSearch.java" afterPath="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/tree/TreeSearch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/graph/DirectedGraphPathCheckTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/graph/DirectedGraphPathCheckTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/graph/GraphSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/graph/GraphSearchTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/linkedlist/LinkedListLoopTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/linkedlist/LinkedListLoopTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/queue/QueueTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/queue/QueueTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/search/BinarySearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/search/BinarySearchTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/sort/SortTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/sort/SortTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/stack/StackTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/stack/StackTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/tree/BinarySearchTreeTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/tree/BinarySearchTreeTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/tree/CheckBalanceTreeTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/tree/CheckBalanceTreeTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/tree/CommonAncestorSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/tree/CommonAncestorSearchTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/tree/TreeSearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/tree/TreeSearchTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,12 +108,104 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="LinkedListLoopTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/razertory/datastructure/linkedlist/LinkedListLoopTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <marker date="1514728818981" expanded="true" signature="139:211" ph="/**...*/" />
+                <marker date="1514728818981" expanded="true" signature="274:2212" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-199">
+              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <marker date="1514728818939" expanded="true" signature="43:177" ph="/**...*/" />
+                <marker date="1514728818939" expanded="false" signature="251:256" ph=" { " />
+                <marker date="1514728818939" expanded="false" signature="294:297" ph=" }" />
+                <marker date="1514728818939" expanded="true" signature="300:383" ph="/**...*/" />
+                <marker date="1514728818939" expanded="true" signature="441:620" ph="{...}" />
+                <marker date="1514728818939" expanded="true" signature="624:739" ph="/**...*/" />
+                <marker date="1514728818939" expanded="true" signature="796:1115" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/razertory/datastructure/sort/SortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/ISort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>weijielu</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/org/buptdavid/datastructure/sort/SortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/ISort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/razertory/datastructure/sort/SortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/BubbleSort.java" />
+      </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -57,6 +247,37 @@
               <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="Datastructure" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -79,7 +300,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SortTest.testBubbleSort">
+    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.buptdavid.datastructure.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="datastructure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.buptdavid.datastructure.sort" />
+      <option name="MAIN_CLASS_NAME" value="org.buptdavid.datastructure.sort.SortTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SortTest.testBubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.razertory.datastructure.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="datastructure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.razertory.datastructure.sort" />
+      <option name="MAIN_CLASS_NAME" value="org.razertory.datastructure.sort.SortTest" />
+      <option name="METHOD_NAME" value="testBubbleSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SortTest.testSelectionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.razertory.datastructure.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="datastructure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.razertory.datastructure.sort" />
+      <option name="MAIN_CLASS_NAME" value="org.razertory.datastructure.sort.SortTest" />
+      <option name="METHOD_NAME" value="testSelectionSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -161,6 +457,18 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SortTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SortTest.testSelectionSort" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SortTest.testBubbleSort" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SortTest.testBubbleSort" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SortTest.testSelectionSort" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SortTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -180,22 +488,57 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SortTest - 2017.12.31 at 21h 55m 43s.xml">
+      <configuration name="SortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortTest_testBubbleSort - 2017.12.31 at 22h 10m 57s.xml">
+      <configuration name="SortTest.testBubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortTest_testBubbleSort - 2017.12.31 at 22h 11m 18s.xml">
+      <configuration name="SortTest.testBubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortTest_testBubbleSort - 2017.12.31 at 22h 11m 55s.xml">
+      <configuration name="SortTest.testBubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortTest_testBubbleSort - 2017.12.31 at 22h 12m 31s.xml">
+      <configuration name="SortTest.testBubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortTest_testBubbleSort - 2017.12.31 at 22h 15m 29s.xml">
+      <configuration name="SortTest.testBubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortTest_testBubbleSort - 2017.12.31 at 22h 16m 17s.xml">
+      <configuration name="SortTest.testBubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortTest_testBubbleSort - 2017.12.31 at 22h 16m 34s.xml">
+      <configuration name="SortTest.testBubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortTest_testBubbleSort - 2017.12.31 at 22h 29m 34s.xml">
+      <configuration name="SortTest.testBubbleSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortTest_testSelectionSort - 2017.12.31 at 22h 06m 53s.xml">
+      <configuration name="SortTest.testSelectionSort" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="110" y="23" width="1440" height="809" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18263888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -206,7 +549,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -216,6 +558,69 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/razertory/datastructure/linkedlist/LinkedListLoopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <marker date="1514728818981" expanded="true" signature="139:211" ph="/**...*/" />
+            <marker date="1514728818981" expanded="true" signature="274:2212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <marker date="1514728818939" expanded="true" signature="43:177" ph="/**...*/" />
+            <marker date="1514728818939" expanded="false" signature="251:256" ph=" { " />
+            <marker date="1514728818939" expanded="false" signature="294:297" ph=" }" />
+            <marker date="1514728818939" expanded="true" signature="300:383" ph="/**...*/" />
+            <marker date="1514728818939" expanded="true" signature="441:620" ph="{...}" />
+            <marker date="1514728818939" expanded="true" signature="624:739" ph="/**...*/" />
+            <marker date="1514728818939" expanded="true" signature="796:1115" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/ISort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/razertory/datastructure/sort/SortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/razertory/datastructure/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
