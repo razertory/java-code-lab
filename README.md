@@ -1,6 +1,6 @@
 # Data Structure - Java Implementation
 
-🙏感谢源作者 @[razertory](https://github.com/razertory)
+🙏感谢源作者 @[buptdavid](https://github.com/buptdavid)
 ---
 🔧环境和工具
 ------
