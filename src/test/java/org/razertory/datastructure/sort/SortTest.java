@@ -5,9 +5,13 @@ import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Random;
+
 /**
  * 排序测试
  * @author razertory
+ * @test
+ * 生成大量的随机整数，通过实际效果比较各个排序算法的性能
  * @see ISort
  * @see BubbleSort
  * @see SelectionSort
@@ -15,23 +19,24 @@ import org.junit.Test;
  * @see QuickSort
  */
 public class SortTest {
-	int[] array = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+	int size = 100000;//10万
+	int[] array = new int[size];
 	ISort sort;
 	
 	@Before
 	public void before(){
-		int[] arrayIni = {10, 9, 8, 7, 6, 5, 4, 4, 1, -1};
-		for(int i = 0; i < array.length; i++){
-			array[i] = arrayIni[i];
+		Random rand = new Random();
+		for (int i = 0; i< size; i++) {
+		    array[i] = rand.nextInt(size);
 		}
-		printArr(array);
 	}
 	
 	@Test
 	public void testBubbleSort(){
 		sort = new BubbleSort();
+		Long before = System.currentTimeMillis();
 		sort.sort(array);
-		printArr(array);
+		System.out.println("Bubble sort cast :" + (System.currentTimeMillis() - before));
 		validate();
 	}
 	
@@ -44,8 +49,10 @@ public class SortTest {
 	
 	@Test
 	public void testMergeSort(){
-		sort = new MergeSort();
+	    sort = new MergeSort();
+		Long before = System.currentTimeMillis();
 		sort.sort(array);
+		System.out.println("Merge sort cast :" + (System.currentTimeMillis() - before));
 		validate();
 		
 	}
@@ -53,7 +60,9 @@ public class SortTest {
 	@Test
 	public void testQuickSort(){
 		sort = new QuickSort();
+		Long before = System.currentTimeMillis();
 		sort.sort(array);
+		System.out.println("Quick sort cast :" + (System.currentTimeMillis() - before));
 		validate();
 	}
 	
@@ -78,10 +87,4 @@ public class SortTest {
 		}
 	}
 
-	private void printArr(int [] array) {
-		for(int i = 0; i < array.length; i++){
-		    System.out.print(array[i] + " ");
-		}
-		System.out.println(" ");
-	}
 }
