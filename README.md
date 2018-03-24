@@ -1,12 +1,11 @@
 # Data Structure - Java Implementation
 
-🙏感谢源作者 @[buptdavid](https://github.com/buptdavid)
----
 🔧环境和工具
 ------
   1. install Java & Maven for your OS  
   2. Idea or Eclipse
 
+⚡️每个算法都附带相应的测试用例，部分地方加上了利用大量生成的随机数进行的性能实际测试。
 # 📖 目录
 ------
 * 线形
