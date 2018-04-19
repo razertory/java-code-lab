@@ -1,11 +1,15 @@
-# Data Structure - Java Implementation
+# Datastructre & Algorithm in Java
+
+Java实现的数据结构&算法
 
 🔧环境和工具
 ------
-  1. install Java & Maven for your OS  
+  1. Java8 & Maven
   2. Idea or Eclipse
-  
- ⚡️每个算法都附带相应的测试用例，部分地方加上了利用大量生成的随机数进行的性能实际测试。
+
+ ⚡️每个算法都附带相应的测试用例，部分地方加上了利用生成的随机数进行的性能实际测试。比如排序，我会用Random预先生成一定数量的随机数。并计算出排序所耗费的时间。
+
+ > 做工程，对于算法性能的态度，除了数学本身关于算法时间空间复杂度的证明，还应该去实际测试相关的性能。
 # 📖 目录
 ------
 * 线形
@@ -27,3 +31,7 @@
   4. Netty [Netty粘包拆包服务端](https://github.com/razertory/datastructure/blob/master/src/main/java/org/razertory/datastructure/io/netty/tcpacketsplicing/TimeServer.java) [Netty粘包拆包客户端](https://github.com/razertory/datastructure/blob/master/src/main/java/org/razertory/datastructure/io/netty/tcpacketsplicing/TimeClient.java) [Netty序列化服务端](https://github.com/razertory/datastructure/blob/master/src/main/java/org/razertory/datastructure/io/netty/serializable/SubReqServer.java) [Netty序列化客户端](https://github.com/razertory/datastructure/blob/master/src/main/java/org/razertory/datastructure/io/netty/serializable/SubReqClient.java)
 * 设计模式
   1. [五种单例模式](https://github.com/razertory/datastructure/blob/master/src/main/java/org/razertory/datastructure/designPatterns/singleton/Singleton.java)
+
+# TODO
+* 树: `红黑树`，`B树`,`trie树`,`哈希树`,`蒙特卡洛搜索树`
+* 算法: `贪心`, `DP(动态规划)`
