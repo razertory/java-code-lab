@@ -19,7 +19,7 @@ import java.util.Random;
  * @see QuickSort
  */
 public class SortTest {
-	int size = 100000;//10万
+	int size = 10;//10万
 	int[] array = new int[size];
 	ISort sort;
 	

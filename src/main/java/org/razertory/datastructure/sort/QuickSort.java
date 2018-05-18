@@ -21,39 +21,34 @@ public class QuickSort implements ISort {
 	 * @param right
 	 */
 	private void quickSort(int[] array, int left, int right){
-		int index = partition(array, left, right);
-		if(left < index - 1){
-			quickSort(array, left, index - 1);
-		}
-		if(index + 1 < right){
-			quickSort(array, index, right);
+	    if (left < right) {
+			int index = partition(array, left, right);
+			quickSort(array, left, index -1);
+			quickSort(array, index + 1, right);
 		}
 	}
 	
 	/**
 	 * 找出一个基准点，排列数组array左边的都小于它，右边的都大于它
 	 * @param array
-	 * @param left
-	 * @param right
 	 * @return 基准值数组索引
 	 */
-	private int partition(int[] array, int left, int right){
-		int pivot = array[(left + right) / 2];
-		int temp;
-		
-		while(left < right){
-			while(array[left] < pivot) left++;
-			while(array[right] > pivot) right--;
-			
-			if(left < right){
-				temp = array[left];
-				array[left] = array[right];
-				array[right] = temp;
+
+	private int partition(int[] array, int low, int heigh){
+		int left = low;
+		int pivot = array[heigh];
+		for(int i = low; i < heigh; i++) {
+			if (array[i] < pivot) {
+				int temp = array[i];
+				array[i] = array[left];
+				array[left] = temp;
 				left++;
-				right--;
 			}
 		}
-		
-		return left;
+		int temp = array[left];
+		array[left] = pivot; //or array[heigh]
+		array[heigh] = temp;
+		return  left;
 	}
+
 }
