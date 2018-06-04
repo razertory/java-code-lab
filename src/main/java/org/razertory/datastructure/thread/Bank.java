@@ -1,4 +1,4 @@
-package org.razertory.datastructure.thread.lockcondition;
+package org.razertory.datastructure.thread;
 import java.util.concurrent.locks.*;
 
 /**

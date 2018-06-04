@@ -10,7 +10,6 @@ package org.razertory.datastructure.sort;
  */
 public class InsertOptimizeSort implements ISort {
 
-	@Override
 	public void sort(int[] array) {
 		for(int i = 1; i < array.length; i++){
 			int index = getInsertIndex(array, i, array[i]);

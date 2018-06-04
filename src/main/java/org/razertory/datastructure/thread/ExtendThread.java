@@ -6,7 +6,7 @@ package org.razertory.datastructure.thread;
  * @see ExtendThreadRun
  */
 public class ExtendThread extends Thread {
-	int count = 0;
+	public int count = 0;
 	
 	public void run(){
 		try{

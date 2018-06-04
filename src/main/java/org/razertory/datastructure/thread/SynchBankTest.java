@@ -1,4 +1,4 @@
-package org.razertory.datastructure.thread.lockcondition;
+package org.razertory.datastructure.thread;
 /**
  * This program shows how multiple threads can safely access a data structure.
  * @version 1.30 2004-08-01
