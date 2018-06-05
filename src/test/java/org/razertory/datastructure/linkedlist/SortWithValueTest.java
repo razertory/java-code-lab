@@ -1,18 +1,22 @@
 package org.razertory.datastructure.linkedlist;
 
-import org.junit.Before;
 import org.junit.Test;
 import org.razertory.datastructure.Node;
 
+import static org.junit.Assert.*;
 
-public class DeleteDupsTest {
-    @Before
-    public void setUp() {
+public class SortWithValueTest {
+    @Test
+    public void sort() throws Exception {
+    }
+
+    @Test
+    public void sortGood() throws Exception {
         Node<Integer> node1 = new Node<Integer>(2);
-        Node<Integer> node2 = new Node<Integer>(2);
-        Node<Integer> node3 = new Node<Integer>(3);
-        Node<Integer> node4 = new Node<Integer>(2);
-        Node<Integer> node5 = new Node<Integer>(3);
+        Node<Integer> node2 = new Node<Integer>(8);
+        Node<Integer> node3 = new Node<Integer>(6);
+        Node<Integer> node4 = new Node<Integer>(10);
+        Node<Integer> node5 = new Node<Integer>(7);
 
         node1.next = node2;
         node2.next = node3;
@@ -24,18 +28,14 @@ public class DeleteDupsTest {
             System.out.print(node1.data + " ");
             node1 = node1.next;
         }
-    }
 
-    @Test
-    public void delete(Node head) throws Exception {
+        System.out.println("\r\nSort....");
+        node1 = SortWithValue.sortGood(head, 6);
 
-        DeleteDups.delete(head);
-        System.out.println(" ");
-
-        Node node1 = head;
         while (node1 != null) {
             System.out.print(node1.data + " ");
             node1 = node1.next;
         }
     }
+
 }

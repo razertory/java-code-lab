@@ -5,10 +5,10 @@ package org.razertory.datastructure.sort;
  * 时间复杂度: 平均情况与最差情况都是O(nlog(n))<br>
  * 空间复杂度: It Depends
  * @author razertory
- * @see ISort
+ * @see Sort
  * @see SortTest
  */
-public class MergeSort implements ISort {
+public class MergeSort extends Sort {
 
 	public void sort(int[] array) {
 		mergeSort(array, 0, array.length - 1);

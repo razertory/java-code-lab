@@ -8,7 +8,7 @@ package org.razertory.datastructure.sort;
  * @author razertory
  *
  */
-public class InsertSort implements ISort {
+public class InsertSort extends Sort {
 
 	@Override
 	public void sort(int[] array) {

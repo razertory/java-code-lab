@@ -5,9 +5,9 @@ package org.razertory.datastructure.sort;
  * 时间复杂度: 平均情况与最差情况都是O(n^2)<br>
  * 空间复杂度: O(1)
  * @author razertory
- * @see ISort
+ * @see Sort
  */
-public class BubbleSort implements ISort {
+public class BubbleSort extends Sort {
 
 	public void sort(int[] array) {
 		int temp;

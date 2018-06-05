@@ -8,7 +8,7 @@ package org.razertory.datastructure.sort;
  * @author razertory
  *
  */
-public class InsertOptimizeSort implements ISort {
+public class InsertOptimizeSort extends Sort {
 
 	public void sort(int[] array) {
 		for(int i = 1; i < array.length; i++){

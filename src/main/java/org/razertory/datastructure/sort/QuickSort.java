@@ -5,10 +5,10 @@ package org.razertory.datastructure.sort;
  * 时间复杂度: 平均情况是O(nlog(n)),最差情况是O(n^2)<br>
  * 空间复杂度: O(nlog(n))
  * @author razertory
- * @see ISort
+ * @see Sort
  * @see SortTest
  */
-public class QuickSort implements ISort {
+public class QuickSort extends Sort {
 
 	public void sort(int[] array) {
 		quickSort(array, 0, array.length - 1);
