@@ -1,4 +1,4 @@
-package org.razertory.datastructure.thread.lockcondition;
+package org.razertory.datastructure.thread;
 /**
  * A runnable that transfers money from an account to other accounts in a bank.
  * @version 1.30 2004-08-01

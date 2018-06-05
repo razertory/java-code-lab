@@ -25,17 +25,17 @@ public class DeleteDupsTest {
             node1 = node1.next;
         }
     }
-//    @Test
-//    public void delete() throws Exception {
-//
-//        DeleteDups.delete(head);
-//        System.out.println(" ");
-//
-//        node1 = head;
-//        while (node1 != null) {
-//            System.out.print(node1.data + " ");
-//            node1 = node1.next;
-//        }
-//    }
 
+    @Test
+    public void delete(Node head) throws Exception {
+
+        DeleteDups.delete(head);
+        System.out.println(" ");
+
+        Node node1 = head;
+        while (node1 != null) {
+            System.out.print(node1.data + " ");
+            node1 = node1.next;
+        }
+    }
 }

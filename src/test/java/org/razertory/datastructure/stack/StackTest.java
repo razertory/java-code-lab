@@ -70,4 +70,21 @@ public class StackTest {
         Assert.assertEquals(Integer.valueOf(1), s.pop());
         Assert.assertEquals(Integer.valueOf(2), s.min());
 	}
+
+	@Test
+	public void testHannotower(){
+		// 三根柱子
+		int n = 3;
+		Hannotower.Tower[] towers = new Hannotower.Tower[n];
+		towers[0] = new Hannotower.Tower('A');
+		towers[1] = new Hannotower.Tower('B');
+		towers[2] = new Hannotower.Tower('C');
+
+		// 10个盘子
+		int diskCount = 10;
+		for(int i = diskCount; i > 0; i--){
+			towers[0].add(i);
+		}
+		towers[0].moveDisks(diskCount, towers[2], towers[1]);
+	}
 }
