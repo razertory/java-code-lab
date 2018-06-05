@@ -1,9 +1,9 @@
 package org.razertory.datastructure.graph;
 
-import java.util.List;
-
 import org.razertory.datastructure.queue.IQueue;
 import org.razertory.datastructure.queue.Queue;
+
+import java.util.List;
 
 /**
  * 给出有向图的两个节点判断两者之间是否有一路径

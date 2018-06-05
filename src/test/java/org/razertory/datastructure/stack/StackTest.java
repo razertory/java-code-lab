@@ -1,9 +1,8 @@
 package org.razertory.datastructure.stack;
 
 import junit.framework.Assert;
-
-import org.razertory.datastructure.Node;
 import org.junit.Test;
+import org.razertory.datastructure.Node;
 
 /**
  * 栈的实现测试类

@@ -1,9 +1,9 @@
 package org.razertory.datastructure.stack;
 
+import org.razertory.datastructure.Node;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import org.razertory.datastructure.Node;
 
 
 /**

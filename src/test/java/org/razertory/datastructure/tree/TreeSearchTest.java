@@ -1,7 +1,6 @@
 package org.razertory.datastructure.tree;
 
 import junit.framework.Assert;
-
 import org.junit.BeforeClass;
 import org.junit.Test;
 

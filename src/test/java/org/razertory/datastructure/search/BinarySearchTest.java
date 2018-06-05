@@ -1,7 +1,6 @@
 package org.razertory.datastructure.search;
 
 import junit.framework.Assert;
-
 import org.junit.Test;
 
 

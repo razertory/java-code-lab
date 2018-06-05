@@ -1,8 +1,8 @@
 package org.razertory.datastructure.linkedlist;
 
-import org.razertory.datastructure.Node;
 import org.junit.Assert;
 import org.junit.Test;
+import org.razertory.datastructure.Node;
 
 /**
  * LinkedListRing测试类

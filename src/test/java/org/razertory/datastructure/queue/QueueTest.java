@@ -1,9 +1,8 @@
 package org.razertory.datastructure.queue;
 
 import junit.framework.Assert;
-
-import org.razertory.datastructure.Node;
 import org.junit.Test;
+import org.razertory.datastructure.Node;
 
 /**
  * 队列的测试类

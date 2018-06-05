@@ -1,10 +1,10 @@
 package org.razertory.datastructure.io.fakenio;
 
+import org.razertory.datastructure.io.bio.TimeServerHandler;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-
-import org.razertory.datastructure.io.bio.TimeServerHandler;
 
 /**
  * 伪异步IO的TimeServer<br>
