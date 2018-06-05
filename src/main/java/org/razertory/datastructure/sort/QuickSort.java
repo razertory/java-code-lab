@@ -6,7 +6,6 @@ package org.razertory.datastructure.sort;
  * 空间复杂度: O(nlog(n))
  * @author razertory
  * @see Sort
- * @see SortTest
  */
 public class QuickSort extends Sort {
 
@@ -39,10 +38,10 @@ public class QuickSort extends Sort {
 		int pivot = array[heigh];
 		for(int i = low; i < heigh; i++) {
 			if (array[i] < pivot) {
-				int temp = array[i];
-				array[i] = array[left];
-				array[left] = temp;
-				left++;
+                int temp = array[i];
+                array[i] = array[left];
+                array[left] = temp;
+                left++;
 			}
 		}
 		int temp = array[left];
