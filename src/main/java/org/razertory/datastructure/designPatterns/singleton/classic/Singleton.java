@@ -1,6 +1,7 @@
 package org.razertory.datastructure.designPatterns.singleton.classic;
 
 /**
+ * 懒汉式
  * 经典的非线程安全单例模式实现类
  * @author razertory
  *

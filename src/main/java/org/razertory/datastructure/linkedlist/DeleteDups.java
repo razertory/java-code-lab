@@ -11,9 +11,9 @@ import org.razertory.datastructure.Node;
 public class DeleteDups {
 
 	public static void delete(Node<Integer> head) {
-		if (head == null)
+		if (head == null) {
 			return;
-
+		}
 		Node<Integer> current = head;
 		while (current != null) {
 			Node<Integer> runner = current;
