@@ -1,7 +1,8 @@
-package org.razertory.datastructure.designPatterns.singleton.classic;
+package org.razertory.datastructure.designPatterns.singleton.staticInnerClass;
 
 import org.junit.Assert;
 import org.junit.Test;
+
 
 public class SingletonTest {
 
@@ -13,9 +14,7 @@ public class SingletonTest {
         Assert.assertTrue(a.hashCode() == b.hashCode());
     }
 
-    /**
-     * 非线程安全的单例模式，并发执行获取对象方法的时候，可能会出现不同的对象（观察hashcode的值）。
-     */
+
     @Test
     public void concurrentGetInstance() throws Exception {
         Thread[] threads = new Thread[10];
