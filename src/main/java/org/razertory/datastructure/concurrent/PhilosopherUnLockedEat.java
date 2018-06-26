@@ -1,4 +1,4 @@
-package org.razertory.datastructure.thread;
+package org.razertory.datastructure.concurrent;
 
 /**
  * 十个不会死锁哲学家就餐

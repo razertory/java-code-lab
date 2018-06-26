@@ -1,4 +1,4 @@
-package org.razertory.datastructure.thread;
+package org.razertory.datastructure.concurrent;
 
 /**
  * 继承Thread实现线程类

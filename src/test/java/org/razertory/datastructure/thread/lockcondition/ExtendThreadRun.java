@@ -1,7 +1,7 @@
-package org.razertory.datastructure.thread.lockcondition;
+package org.razertory.datastructure.concurrent.lockcondition;
 
 import org.junit.Test;
-import org.razertory.datastructure.thread.ExtendThread;
+import org.razertory.datastructure.concurrent.ExtendThread;
 
 
 public class ExtendThreadRun {

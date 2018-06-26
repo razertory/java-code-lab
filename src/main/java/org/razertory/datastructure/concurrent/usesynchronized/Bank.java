@@ -1,4 +1,4 @@
-package org.razertory.datastructure.thread.usesynchronized;
+package org.razertory.datastructure.concurrent.usesynchronized;
 
 /**
  * A bank with a number of bank accounts that uses synchronization primitives.

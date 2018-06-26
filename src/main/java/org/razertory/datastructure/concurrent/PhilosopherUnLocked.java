@@ -1,4 +1,4 @@
-package org.razertory.datastructure.thread;
+package org.razertory.datastructure.concurrent;
 
 /**
  * 哲学家就餐问题的 不会死锁的 哲学家

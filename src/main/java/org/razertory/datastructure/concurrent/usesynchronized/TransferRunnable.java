@@ -1,4 +1,4 @@
-package org.razertory.datastructure.thread;
+package org.razertory.datastructure.concurrent.usesynchronized;
 /**
  * A runnable that transfers money from an account to other accounts in a bank.
  * @version 1.30 2004-08-01

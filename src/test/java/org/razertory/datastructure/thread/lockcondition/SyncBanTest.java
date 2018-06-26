@@ -1,7 +1,7 @@
-package org.razertory.datastructure.thread.lockcondition;
+package org.razertory.datastructure.concurrent.lockcondition;
 
-import org.razertory.datastructure.thread.Bank;
-import org.razertory.datastructure.thread.TransferRunnable;
+import org.razertory.datastructure.concurrent.Bank;
+import org.razertory.datastructure.concurrent.TransferRunnable;
 
 public class SyncBanTest {
     public static final int NACCOUNTS = 100;

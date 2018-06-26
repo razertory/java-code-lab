@@ -1,10 +1,12 @@
-package org.razertory.datastructure.thread;
+package org.razertory.datastructure.concurrent.usesynchronized;
+
 /**
- * This program shows how multiple threads can safely access a data structure.
+ * This program shows how multiple threads can safely access a data structure, using synchronized
+ * methods.
  * @version 1.30 2004-08-01
  * @author Cay Horstmann
  */
-public class SynchBankTest
+public class SynchBankTest2
 {
    public static void main(String[] args)
    {
@@ -21,4 +23,3 @@ public class SynchBankTest
    public static final int NACCOUNTS = 100;
    public static final double INITIAL_BALANCE = 1000;
 }
-

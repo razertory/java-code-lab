@@ -3,8 +3,6 @@ package org.razertory.datastructure.linkedlist;
 import org.junit.Test;
 import org.razertory.datastructure.Node;
 
-import static org.junit.Assert.*;
-
 public class SortWithValueTest {
     @Test
     public void sort() throws Exception {

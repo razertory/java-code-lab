@@ -1,5 +1,8 @@
-package org.razertory.datastructure.thread;
-import java.util.concurrent.locks.*;
+package org.razertory.datastructure.concurrent;
+
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * A bank with a number of bank accounts that uses locks for serializing access.

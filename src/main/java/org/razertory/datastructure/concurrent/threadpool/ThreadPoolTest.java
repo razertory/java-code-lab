@@ -1,6 +1,10 @@
-package org.razertory.datastructure.thread.threadpool;
-import java.io.*;
-import java.util.*;
+package org.razertory.datastructure.concurrent.threadpool;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
 import java.util.concurrent.*;
 
 /**
