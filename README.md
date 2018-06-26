@@ -10,23 +10,23 @@ Java实现的数据结构&算法，只需要用IDE导入即可。
 # 📖 目录
 ------
 
-[字符串](/Users/springchan/github/Datastructure/src/main/java/org/razertory/datastructure/string/README.md)
+[字符串](./src/main/java/org/razertory/datastructure/string/README.md)
 
-[链表](/Users/springchan/github/Datastructure/src/main/java/org/razertory/datastructure/linkedlist/README.md)
+[链表](./src/main/java/org/razertory/datastructure/linkedlist/README.md)
 
-[栈](/Users/springchan/github/Datastructure/src/main/java/org/razertory/datastructure/stack/README.md)
+[栈](./src/main/java/org/razertory/datastructure/stack/README.md)
 
-[队列](/Users/springchan/github/Datastructure/src/main/java/org/razertory/datastructure/queue/README.md)
+[队列](./src/main/java/org/razertory/datastructure/queue/README.md)
 
-[排序](/Users/springchan/github/Datastructure/src/main/java/org/razertory/datastructure/sort/README.md)
+[排序](./src/main/java/org/razertory/datastructure/sort/README.md)
 
-[树](/Users/springchan/github/Datastructure/src/main/java/org/razertory/datastructure/tree/README.md)
+[树](./src/main/java/org/razertory/datastructure/tree/README.md)
 
-[搜索](/Users/springchan/github/Datastructure/src/main/java/org/razertory/datastructure/search/README.md)
+[搜索](./src/main/java/org/razertory/datastructure/search/README.md)
 
-[图](/Users/springchan/github/Datastructure/src/main/java/org/razertory/datastructure/graph/README.md)
+[图](.src/main/java/org/razertory/datastructure/graph/README.md)
 
-[网络IO](/Users/springchan/github/Datastructure/src/main/java/org/razertory/datastructure/io/README.md)
+[网络IO](./src/main/java/org/razertory/datastructure/io/README.md)
 
 [并发](./src/main/java/org/razertory/datastructure/concurrent/README.md)
 
