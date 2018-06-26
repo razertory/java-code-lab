@@ -11,27 +11,16 @@ Java实现的数据结构&算法，只需要用IDE导入即可。
 ------
 
 ## [字符串]()
-
 ## [链表]()
-
 ## [栈]()
-
 ## [队列]()
-
 ## [排序]()
-
 ## [树]()
-
 ## [搜索]()
-
 ## [图]()
-
 ## [网络IO]()
-
 ## [并发]()
-
 ## [动态规划]()
-
 ## [设计模式](./src/main/java/org/razertory/datastructure/designPatterns/README.md)
 
 # FQA
