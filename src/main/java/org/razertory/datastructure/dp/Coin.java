@@ -5,8 +5,7 @@ import java.util.Arrays;
 /**
  * @author: Razertory
  * @description: 给出面值为： N1, N2, N3 ...的硬币，要求用最少的硬币数找零
- * https://blog.csdn.net/niaonao/article/details/78249256
- * @create: 2018-06-19-16
+ * @create: 2018-06-19
  */
 public class Coin {
 
