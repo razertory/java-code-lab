@@ -19,6 +19,7 @@ public class CoinTest {
         Assert.assertEquals(79, result);
     }
 
+    // the time cost could be over your tolerance
     @Test
     public void coinRecursion() {
         Coin coin = new Coin();

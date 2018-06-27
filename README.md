@@ -8,7 +8,6 @@ Java实现的数据结构&算法，只需要用IDE导入即可。
   2. Idea or Eclipse
 
 # 📖 目录
-------
 
 [字符串](./src/main/java/org/razertory/datastructure/string/README.md)
 

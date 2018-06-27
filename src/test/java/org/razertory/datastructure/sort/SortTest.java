@@ -1,6 +1,5 @@
 package org.razertory.datastructure.sort;
 
-import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -21,8 +20,6 @@ import java.util.Random;
 public class SortTest {
 	int size = 10000;//一万个随机数
 	int[] array = new int[size];
-	Long before;
-	Long after;
 	Sort sort;
 	
 	@Before
@@ -31,15 +28,8 @@ public class SortTest {
 		for (int i = 0; i< size; i++) {
 		    array[i] = rand.nextInt(size);
 		}
-		before = System.currentTimeMillis();
 	}
 
-	@After
-	public void after() {
-	    after = System.currentTimeMillis();
-		System.out.println("sort cast :" + (System.currentTimeMillis() - before));
-	}
-	
 	@Test
 	public void testBubbleSort(){
 		sort = new BubbleSort();
