@@ -10,7 +10,8 @@ Java实现的数据结构&算法，只需要用Idea导入即可。
 # 📖 目录
 
 ## 字符串
-* [x] Java 中的字符串 `equals` `==`
+* [x] [Java 中的字符串 `equals` `==`](./src/main/java/org/razertory/datastructure/string/StringEqual.java)
+* [ ] KMP 算法
 
 ## 链表
 
