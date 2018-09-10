@@ -15,8 +15,13 @@ Java实现的数据结构&算法，只需要用Idea导入即可。
 
 ## 链表
 * [x] [删除链表中的重复元素](./src/main/java/org/razertory/datastructure/linkedlist/DeleteDups.java)
+* [x] [判断链表是否成环](./src/main/java/org/razertory/datastructure/linkedlist/LinkedListLoop.java)
 
 ## 栈
+* [ ] [O(1) 获得最小值的栈](./src/main/java/org/razertory/datastructure/stack/StackWithMin.java)
+* [ ] [移动汉诺塔问题](./src/main/java/org/razertory/datastructure/stack/Hannotower.java)
+* [ ] [记录栈的最大容量](./src/main/java/org/razertory/datastructure/stack/StackCapacity.java)
+* [ ] [栈的集合](./src/main/java/org/razertory/datastructure/stack/SetOfStacks.java)
 
 ## 队列
 

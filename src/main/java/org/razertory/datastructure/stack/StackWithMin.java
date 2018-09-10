@@ -5,10 +5,6 @@ import org.razertory.datastructure.Node;
 
 /**
  * 一个能随时获取栈中最小值的栈的实现
- * 
- * @author razertory
- * @see StackTest
- * @see IStack
  * @see Node
  */
 public class StackWithMin extends Stack<Integer> {

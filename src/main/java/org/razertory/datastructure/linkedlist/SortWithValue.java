@@ -4,8 +4,6 @@ import org.razertory.datastructure.Node;
 
 /**
  * 给出一个值,将链表中左边数据都小于此值,右边的值都大于等于此值
- * @author razertory
- * 
  */
 public class SortWithValue {
 	

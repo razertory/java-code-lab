@@ -11,8 +11,6 @@ import java.util.List;
  * 当第一个栈push满后，push第二个栈，以此类推<br>
  * 当最后一个栈pop空后，pop倒数第二个栈，依次类推<br>
  * 
- * @author razertory
- * @see StackTest
  * @see IStack
  * @see Node
  */
@@ -66,8 +64,6 @@ public class SetOfStacks<T> implements IStack<T> {
 
 	/**
 	 * 返回最后的栈
-	 * 
-	 * @return
 	 */
 	private StackCapacity<T> getLastStack() {
 		if (stacks.size() == 0) {

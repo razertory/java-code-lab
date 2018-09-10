@@ -4,7 +4,6 @@ import org.razertory.datastructure.Node;
 
 /**
  * 栈的实现
- * @author razertory
  * @see StackTest
  * @see IStack
  * @see Node
