@@ -4,7 +4,6 @@ public class StringEqual {
 
 	/**
 	 * 字符串比较
-	 * @author razertory
 	 */
 	public static void main(String[] args) {
 		// s1和s2被分配到永久区(方法区)的运行时常量池的相同的内存

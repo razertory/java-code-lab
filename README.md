@@ -14,6 +14,7 @@ Java实现的数据结构&算法，只需要用Idea导入即可。
 * [ ] KMP 算法
 
 ## 链表
+* [x] [删除链表中的重复元素](./src/main/java/org/razertory/datastructure/linkedlist/DeleteDups.java)
 
 ## 栈
 

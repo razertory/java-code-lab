@@ -4,9 +4,7 @@ import org.razertory.datastructure.Node;
 
 /**
  * 删除链表中重复的元素
- * 
- * @author razertory
- * 
+ * 用一个指针current来从头扫链表，runner指针来基于current的位置判断重复
  */
 public class DeleteDups {
 

@@ -3,11 +3,9 @@ package org.razertory.datastructure.linkedlist;
 import org.razertory.datastructure.Node;
 
 /**
- * 1. 判断一个链表是否存在环儿<br>
- * 2. 如果有环儿计算环儿的长度<br>
- * 3. 找出环儿的连接点<br>
- * @author razertory
- * @see LinkedListLoopTest
+ * 1. 判断一个链表是否存在环儿
+ * 2. 如果有环儿计算环儿的长度>
+ * 3. 找出环儿的连接点
  */
 public class LinkedListLoop {
 	
@@ -32,9 +30,9 @@ public class LinkedListLoop {
 		}
 		
 		// 根据跳出循环的条件return
-		if(fast == null || fast.next == null){
+		if (fast == null || fast.next == null){
 			return false;
-		}else{
+		}else {
 			return true;
 		}
 	}

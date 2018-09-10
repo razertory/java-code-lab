@@ -18,7 +18,7 @@ import java.util.Random;
  * @see QuickSort
  */
 public class SortTest {
-	int size = 10000;//一万个随机数
+	int size = 100000;
 	int[] array = new int[size];
 	Sort sort;
 	
@@ -49,7 +49,6 @@ public class SortTest {
 	    sort = new MergeSort();
 		sort.sort(array);
 		validate();
-		
 	}
 	
 	@Test
