@@ -1,37 +1,38 @@
 # Datastructre & Algorithm in Java
 
-Java实现的数据结构&算法，只需要用IDE导入即可。
+Java实现的数据结构&算法，只需要用Idea导入即可。
 
 🔧环境和工具
 ------
   1. Java8 & Maven
-  2. Idea or Eclipse
+  2. Idea
 
 # 📖 目录
 
-[字符串](./src/main/java/org/razertory/datastructure/string/README.md)
+## 字符串
+* [x] Java 中的字符串 `equals` `==`
 
-[链表](./src/main/java/org/razertory/datastructure/linkedlist/README.md)
+## 链表
 
-[栈](./src/main/java/org/razertory/datastructure/stack/README.md)
+## 栈
 
-[队列](./src/main/java/org/razertory/datastructure/queue/README.md)
+## 队列
 
-[排序](./src/main/java/org/razertory/datastructure/sort/README.md)
+## 排序
 
-[树](./src/main/java/org/razertory/datastructure/tree/README.md)
+## 树
 
-[搜索](./src/main/java/org/razertory/datastructure/search/README.md)
+## 搜索
 
-[图](.src/main/java/org/razertory/datastructure/graph/README.md)
+## 图
 
-[网络IO](./src/main/java/org/razertory/datastructure/io/README.md)
+## 网络IO
 
-[并发](./src/main/java/org/razertory/datastructure/concurrent/README.md)
+## 并发
 
-[动态规划](./src/main/java/org/razertory/datastructure/dp/README.md)
+## 动态规划
 
-[设计模式](./src/main/java/org/razertory/datastructure/designPatterns/README.md)
+## 设计模式
 
 # FQA
 什么人适合这个项目？
