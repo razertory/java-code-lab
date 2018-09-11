@@ -1,12 +1,13 @@
-# Datastructre & Algorithm in Java
+# Datastructre in Java 
 
-Java实现的数据结构&算法，只需要用Idea导入即可。
+Java实现的数据结构和部分算法，包括对应的Junit测试用例。
+
 
 🔧环境和工具
 ------
   1. Java8 & Maven
   2. Idea
-
+ 
 # 📖 目录
 
 ## 字符串
@@ -26,6 +27,12 @@ Java实现的数据结构&算法，只需要用Idea导入即可。
 ## 队列
 
 ## 排序
+* [ ] [冒泡排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [ ] [插入排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [ ] [插入排序优化版](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [ ] [归并排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [ ] [快速排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [ ] [选择排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
 
 ## 树
 
