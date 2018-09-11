@@ -19,7 +19,7 @@ Java实现的数据结构和部分算法，包括对应的Junit测试用例。
 * [x] [判断链表是否成环](./src/main/java/org/razertory/datastructure/linkedlist/LinkedListLoop.java)
 
 ## 栈
-* [ ] [O(1) 获得最小值的栈](./src/main/java/org/razertory/datastructure/stack/StackWithMin.java)
+* [x] [O(1) 获得最小值的栈](./src/main/java/org/razertory/datastructure/stack/StackWithMin.java)
 * [ ] [移动汉诺塔问题](./src/main/java/org/razertory/datastructure/stack/Hannotower.java)
 * [ ] [记录栈的最大容量](./src/main/java/org/razertory/datastructure/stack/StackCapacity.java)
 * [ ] [栈的集合](./src/main/java/org/razertory/datastructure/stack/SetOfStacks.java)
@@ -27,12 +27,12 @@ Java实现的数据结构和部分算法，包括对应的Junit测试用例。
 ## 队列
 
 ## 排序
-* [ ] [冒泡排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [ ] [插入排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [ ] [插入排序优化版](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [ ] [归并排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [ ] [快速排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [ ] [选择排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [x] [冒泡排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [x] [插入排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [x] [插入排序优化版](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [x] [归并排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [x] [快速排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [x] [选择排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
 
 ## 树
 
@@ -49,7 +49,7 @@ Java实现的数据结构和部分算法，包括对应的Junit测试用例。
 ## 设计模式
 
 # FQA
-什么人适合这个项目？
+* 什么人适合这个项目？*
 
 处于打基础的黄金时间的在校大学生，正在准备找工作的求职者，自我提高的在职者等。
 
