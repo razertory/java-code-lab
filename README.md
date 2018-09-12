@@ -27,12 +27,12 @@ Java实现的数据结构和部分算法，包括对应的Junit测试用例。
 ## 队列
 
 ## 排序
-* [ ] [冒泡排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [ ] [插入排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [ ] [插入排序优化版](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [ ] [归并排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [ ] [快速排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [ ] [选择排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [x] [冒泡排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [X] [插入排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [x] [插入排序优化版](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [x] [归并排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [x] [快速排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [x] [选择排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
 
 ## 树
 
