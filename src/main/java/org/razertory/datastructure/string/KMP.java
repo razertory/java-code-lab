@@ -8,14 +8,10 @@ package org.razertory.datastructure.string;
  */
 public class KMP {
 	//pat子串    txt  父串 
-    public void kmpSearch(String pat, String txt) {
+    public boolean kmpSearch(String pat, String txt) {
         int[] next = getNext(pat);
         int res = kmp(txt, pat,next);
-        System.out.println(res);
-        for(int i = 0; i < next.length; i++){
-            System.out.print(" --> "+next[i]);            
-        }
-        System.out.println(next.length);
+        return res == 0;
     }
     
     public  int kmp(String str, String dest,int[] next){//str父串  dest 子串
