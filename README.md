@@ -12,7 +12,7 @@ Java实现的数据结构和部分算法，包括对应的Junit测试用例。
 
 ## 字符串
 * [x] [Java 中的字符串 `equals` `==`](./src/main/java/org/razertory/datastructure/string/StringEqual.java)
-* [x] KMP 算法
+* [x] [KMP 算法]((./src/main/java/org/razertory/datastructure/string/KMP.java))
 * [] KMP 算法优化版
 
 ## 链表
