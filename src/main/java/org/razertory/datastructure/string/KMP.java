@@ -9,7 +9,7 @@ package org.razertory.datastructure.string;
 public class KMP {
 	//pat子串    txt  父串 
     public void kmpSearch(String pat, String txt) {
-        int[] next = get_next(pat);
+        int[] next = getNext(pat);
         int res = kmp(txt, pat,next);
         System.out.println(res);
         for(int i = 0; i < next.length; i++){
@@ -40,7 +40,7 @@ public class KMP {
 	 * 这个是KMP算法最核心的部分，得出子串的重复字符，
 	 * 也就是和父串匹配失败后下一次子串匹配开始的位置
 	 */
-     public  int[] get_next(String str){
+     public  int[] getNext(String str){
         int[] next = new int[str.length()];
         next[0] = 0;
         for(int i = 1,j = 0; i < str.length(); i++){
