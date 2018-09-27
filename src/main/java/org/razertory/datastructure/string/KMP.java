@@ -1,7 +1,6 @@
 package org.razertory.datastructure.string;
 
 /*
- * KMP 算法
  * @Author Awarker
  */
 public class KMP {
