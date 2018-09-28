@@ -11,10 +11,10 @@ public class KMP {
     public boolean kmpSearch(String pat, String txt) {
         int[] next = getNext(pat);
         int res = kmp(txt, pat,next);
-        return res == 0;
+        return res >= 0;
     }
     
-    public  int kmp(String str, String dest,int[] next){//str父串  dest 子串
+    public int kmp(String str, String dest,int[] next){//str父串  dest 子串
         for(int i = 0, j = 0; i < str.length(); i++){
             while(j > 0 && str.charAt(i) != dest.charAt(j)){
                 j = next[j - 1];
@@ -26,7 +26,7 @@ public class KMP {
                 return i-j+1;
             }
         }
-        return 0;
+        return -1;
     }
     /**
 	 * 
