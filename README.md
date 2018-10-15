@@ -1,6 +1,6 @@
 # Datastructre in Java 
 
-Java实现的数据结构和部分算法，包括对应的Junit测试用例。
+Java实现的数据结构和部分算法，包括对应的Junit测试用例。[详情](http://razertory.me/datastructure/2018/06/01/start-my-coding-project.html)
 
 
 🔧环境和工具
