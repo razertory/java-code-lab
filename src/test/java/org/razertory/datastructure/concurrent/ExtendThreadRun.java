@@ -1,4 +1,4 @@
-package org.razertory.datastructure.concurrent.lockcondition;
+package org.razertory.datastructure.concurrent;
 
 import org.junit.Test;
 import org.razertory.datastructure.concurrent.ExtendThread;

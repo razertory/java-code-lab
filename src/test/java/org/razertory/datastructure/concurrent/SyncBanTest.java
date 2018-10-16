@@ -1,4 +1,4 @@
-package org.razertory.datastructure.concurrent.lockcondition;
+package org.razertory.datastructure.concurrent;
 
 import org.razertory.datastructure.concurrent.Bank;
 import org.razertory.datastructure.concurrent.TransferRunnable;
