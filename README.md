@@ -1,5 +1,5 @@
-# Datastructre in Java ![](https://img.shields.io/badge/Algorithm-WIP-orange.svg)
-![](https://img.shields.io/badge/maven-3.5.x-green.svg) ![](https://img.shields.io/badge/junit-4.11-green.svg)
+# Datastructre in Java 
+![](https://img.shields.io/badge/Algorithm-WIP-orange.svg) ![](https://img.shields.io/badge/maven-3.5.x-green.svg) ![](https://img.shields.io/badge/junit-4.11-green.svg)
 
 Java实现的数据结构和部分算法，包括对应的Junit测试用例。[详情](http://razertory.me/datastructure/2018/06/01/start-my-coding-project.html)
  
