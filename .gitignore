@@ -1,7 +1,14 @@
 .idea/
 /target
+<<<<<<< HEAD
 *.ipr
 *.iws
 *.iml
+=======
+.ipr
+.iws
+.iml
+.classpath
+>>>>>>> upstream/master
 .project
 .settings/
