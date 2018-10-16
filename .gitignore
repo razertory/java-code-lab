@@ -5,3 +5,5 @@
 .iml
 .project
 .settings/
+*.classpath
+/.github
