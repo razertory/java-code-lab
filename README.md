@@ -6,7 +6,7 @@ Java实现的数据结构和部分算法，包括对应的Junit测试用例。[�
 # 目录
 
 ## 字符串
-* [x] [Java 中的字符串 `equals` `==`](./src/main/java/org/razertory/datastructure/string/StringEqual.java)
+* [x] [Java 中 String 的 equals 和 ==](./src/main/java/org/razertory/datastructure/string/StringEqual.java)
 * [x] [KMP 算法](./src/main/java/org/razertory/datastructure/string/KMP.java)
 
 ## 链表
@@ -51,7 +51,7 @@ Java实现的数据结构和部分算法，包括对应的Junit测试用例。[�
 * [x] [synchronized 线程安全](./src/main/java/org/razertory/datastructure/designPatterns/singleton/threadSafety/Singleton.java)
 * [x] [volatile 线程安全](./src/main/java/org/razertory/datastructure/designPatterns/singleton/threadSafetyVolatile/Singleton.java)
 
-
+# FAQ
 *谁适合这个项目？*
 
 处于打基础的黄金时间的在校大学生，正在准备找工作的求职者，自我提高的在职者。
