@@ -15,24 +15,24 @@ public class KthBigest {
     }
 
 
-    public static void quickSort(int lo, int hi, int n, int[] nums) {
+    public static int quickSort(int lo, int hi, int n, int[] nums) {
         if (lo == hi) {
             return nums[lo];
         }
-        int index = pos(nums, lo, hi);
+        int index = pos(lo, hi, nums);
         if(index + 1 == n){
             return nums[index];
         }else if(index + 1 < n){
-            return sortKth(index+1, hi, n, nums);
+            return quickSort(index+1, hi, n, nums);
         }else {
-            return sortKth(lo, index -1, n, nums);
+            return quickSort(lo, index -1, n, nums);
         }
 
     }
 
     //获取中间位置
     public static int pos(int lo, int hi, int[] nums) {
-        int key = nums[hi];
+       int key = nums[hi];
         while(lo < hi) {
             while(nums[lo] >= key && lo < hi) {
                 lo ++;
