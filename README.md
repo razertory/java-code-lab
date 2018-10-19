@@ -1,4 +1,4 @@
-# Datastructre in Java
+# Java Code Lab
 ![](https://img.shields.io/badge/Algorithm-WIP-orange.svg) ![](https://img.shields.io/badge/maven-3.5.x-green.svg) ![](https://img.shields.io/badge/junit-4.11-green.svg)
 
 Java 实现的数据结构和部分算法，包括对应的 Junit 测试用例。[背景](http://razertory.me/datastructure/2018/06/01/start-my-coding-project.html)
