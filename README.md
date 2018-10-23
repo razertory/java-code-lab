@@ -18,7 +18,7 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 * [x] [移动汉诺塔问题](./src/main/java/org/razertory/datastructure/stack/Hannotower.java)
 * [x] [记录栈的最大容量](./src/main/java/org/razertory/datastructure/stack/StackCapacity.java)
 * [x] [栈的集合](./src/main/java/org/razertory/datastructure/stack/SetOfStacks.java)
-* [x] [滑动窗口算法 (双循环法)](./src/main/java/org/razertory/datastructure/queue/SlidingWindow.java)
+* [x] [滑动窗口算法 (双循环法、双队列法)](./src/main/java/org/razertory/datastructure/queue/SlidingWindow.java)
 
 ## 队列
 
