@@ -13,8 +13,9 @@ public class KthBigestTest {
 
     @Before
     public void setup() {
-       index = 3;
-       nums = new int[] {9,3,2,4,8};
+       index = 1;
+      // nums = new int[] {9,3,2,4,8};
+        nums = new int[]{1,3,4,2};
        kthBigest = new KthBigest();
     }
 
