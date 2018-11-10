@@ -18,7 +18,7 @@ public class MyHashMap {
         if (size > 0 && size <= MAX_SIZE) {
             size = getBiggerBinary(size);
         } else if (size > MAX_SIZE) {
-            size = MAX_SIZE;
+            size = MAX_SIZE - 1;
         } else {
             throw new IllegalArgumentException("错误的初始化大小： " + size);
         }
