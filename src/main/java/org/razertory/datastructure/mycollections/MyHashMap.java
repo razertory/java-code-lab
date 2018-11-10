@@ -31,11 +31,13 @@ public class MyHashMap {
      * @return
      */
     private void expansion() {
-        Node[] oldNodes = this.nodes;
-        this.nodes = new Node[this.nodes.length << 1];
-        for (int i = 0 ; i < oldNodes.length ; i++){
-            if (oldNodes[i] != null){
-                nodes[this.hash(oldNodes[i].key) & this.nodes.length - 1] = oldNodes[i];
+        if(nodes.length < MAX_SIZE){
+            Node[] oldNodes = this.nodes;
+            this.nodes = new Node[this.nodes.length << 1];
+            for (int i = 0 ; i < oldNodes.length ; i++){
+                if (oldNodes[i] != null){
+                    nodes[this.hash(oldNodes[i].key) & this.nodes.length - 1] = oldNodes[i];
+                }
             }
         }
     }
