@@ -56,7 +56,7 @@ public class MyHashMap {
         return size;
     }
 
-    public synchronized void put(String key, Object value) {
+    public synchronized void put(Object key, Object value) {
         if (!isEmpty(key)) {
             if(COUNT_IN_ARRAY > this.nodes.length){
                 this.expansion();
@@ -67,7 +67,7 @@ public class MyHashMap {
         }
     }
 
-    private void putInArray(int hash, String key, Object value) {
+    private void putInArray(int hash, Object key, Object value) {
         if (this.nodes[hash] == null) {
             this.nodes[hash] = new Node(key, value);
         } else {
@@ -84,7 +84,7 @@ public class MyHashMap {
         }
     }
 
-    public Object getValue(String key) {
+    public Object getValue(Object key) {
         Node temp = this.nodes[hash(key) & this.nodes.length - 1];
         while (temp != null) {
             if (temp.getKey().equals(key)) {
@@ -95,16 +95,11 @@ public class MyHashMap {
         return null;
     }
 
-    private boolean isEmpty(String str) {
+    private boolean isEmpty(Object str) {
         return str == null ? true : false;
     }
 
-    private boolean hasLength(String str) {
-        return !"".equals(str) ? true : false;
-    }
-
-
-    private int hash(String key) {
+    private int hash(Object key) {
         int hash = key.hashCode(), n = nodes.length;
         return hash >>> 16 & hash;
     }
@@ -123,19 +118,19 @@ public class MyHashMap {
     }
 
     private class Node {
-        private String key;
+        private Object key;
         private Object value;
         public Node next;
 
         public Node() {
         }
 
-        public Node(String key, Object value) {
+        public Node(Object key, Object value) {
             this.key = key;
             this.value = value;
         }
 
-        public String getKey() {
+        public Object getKey() {
             return key;
         }
 
