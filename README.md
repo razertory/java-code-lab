@@ -9,19 +9,6 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 * [x] [Java 中 String 的 equals 和 ==](./src/main/java/org/razertory/datastructure/string/StringEqual.java)
 * [x] [KMP 算法](./src/main/java/org/razertory/datastructure/string/KMP.java)
 
-## 链表
-* [x] [删除链表中的重复元素](./src/main/java/org/razertory/datastructure/linkedlist/DeleteDups.java)
-* [x] [判断链表是否成环](./src/main/java/org/razertory/datastructure/linkedlist/LinkedListLoop.java)
-
-## 栈
-* [x] [O(1) 获得最小值的栈](./src/main/java/org/razertory/datastructure/stack/StackWithMin.java)
-* [x] [移动汉诺塔问题](./src/main/java/org/razertory/datastructure/stack/Hannotower.java)
-* [x] [记录栈的最大容量](./src/main/java/org/razertory/datastructure/stack/StackCapacity.java)
-* [x] [栈的集合](./src/main/java/org/razertory/datastructure/stack/SetOfStacks.java)
-* [x] [滑动窗口算法 (双循环法、双队列法)](./src/main/java/org/razertory/datastructure/queue/SlidingWindow.java)
-
-## 队列
-
 ## 排序
 * [x] [冒泡排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
 * [x] [插入排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
@@ -31,27 +18,9 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 * [x] [第 K 大的数 （快排实现）](./src/main/java/org/razertory/datastructure/sort/KthBigest.java)
 * [x] [选择排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
 
-## 树
-
-## 搜索
-
-## 图
-
-## 网络 IO
-
-## 并发
-
 ## 动态规划
 * [x] [硬币找零](./src/main/java/org/razertory/datastructure/dp/Coin.java)
 * [x] [是否存在子集合](./src/main/java/org/razertory/datastructure/dp/SubsetSum.java)
-
-## 设计模式
-### 单例模式
-* [x] [懒汉](./src/main/java/org/razertory/datastructure/designPatterns/singleton/classic/Singleton.java)
-* [x] [饿汉](./src/main/java/org/razertory/datastructure/designPatterns/singleton/statics/Singleton.java)
-* [x] [静态内部类](./src/main/java/org/razertory/datastructure/designPatterns/singleton/staticInnerClass/Singleton.java)
-* [x] [synchronized 线程安全](./src/main/java/org/razertory/datastructure/designPatterns/singleton/threadSafety/Singleton.java)
-* [x] [volatile 线程安全](./src/main/java/org/razertory/datastructure/designPatterns/singleton/threadSafetyVolatile/Singleton.java)
 
 # FAQ
 *谁适合这个项目？*
