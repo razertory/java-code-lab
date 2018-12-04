@@ -8,12 +8,12 @@ import java.util.HashMap;
 
 public class MyHashMapTest {
 
-    private MyHashMap myHashMapmap;
+    private MyHashMap myHashMap;
     private HashMap hashMap;
 
     @Before
     public void setUp() {
-        myHashMapmap = new MyHashMap();
+        myHashMap = new MyHashMap();
         hashMap = new HashMap<>();
         hashMap.put("a", "1");
         hashMap.put("b", "2");
@@ -23,13 +23,29 @@ public class MyHashMapTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testPutNull() {
-        myHashMapmap.put(null, null);
+        myHashMap.put(null, null);
     }
 
     @Test
     public void testMyHashMap() {
-        hashMap.forEach((k, v) -> myHashMapmap.put(k, v));
-        hashMap.forEach((k, v) -> Assert.assertEquals(myHashMapmap.getValue(k), v) );
+        hashMap.forEach((k, v) -> myHashMap.put(k, v));
+        hashMap.forEach((k, v) -> Assert.assertEquals(myHashMap.getValue(k), v) );
+    }
+
+    @Test
+    public void testPutTooMany() {
+        int time = 10000;
+        for (int i = 0 ; i < time; i++) {
+            myHashMap.put(i, i);
+        }
+    }
+
+    @Test
+    public void testPutTooManyHashMap() {
+        int time = 10000;
+        for (int i = 0 ; i < time; i++) {
+            hashMap.put(i, i);
+        }
     }
 
 }
