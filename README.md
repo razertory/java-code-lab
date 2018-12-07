@@ -9,6 +9,9 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 * [Java 中 String 的 equals 和 ==](./src/main/java/org/razertory/datastructure/string/StringEqual.java)
 * [KMP 算法](./src/main/java/org/razertory/datastructure/string/KMP.java)
 
+# 自实现 Collections
+* [哈希表 HashMap](./src/main/java/org/razertory/datastructure/mycollections/MyHashMap.java)
+
 ## 排序
 * [冒泡排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
 * [插入排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
@@ -20,7 +23,6 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 
 ## BFS 广度优先搜索
 * [广度遍历二叉树](./src/main/java/org/razertory/datastructure/bfs/Tree.java)
-
 
 ## DFS 深度优先搜索
 * [深度遍历二叉树](./src/main/java/org/razertory/datastructure/dfs/Tree.java)
