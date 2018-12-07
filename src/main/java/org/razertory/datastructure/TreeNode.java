@@ -12,7 +12,7 @@ public class TreeNode {
         this.value = value;
     }
 
-    // 返回一个固定二叉树的 root，二叉树如图
+    // 返回一个固定二叉树的 root
     //                 1
     //               /   \
     //             5       8

@@ -1,10 +1,9 @@
 package org.razertory.datastructure.bfs;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.razertory.datastructure.TreeNode;
-
-import static org.junit.Assert.*;
 
 public class TreeTest {
     private TreeNode root;
@@ -16,9 +15,8 @@ public class TreeTest {
         tree = new Tree();
     }
 
-
     @Test
     public void bfsSearch() {
-        tree.bfsSearch(root);
+        Assert.assertArrayEquals(new Integer[] {1, 5, 8, 7, 9, 3}, tree.bfsSearch(root));
     }
 }
