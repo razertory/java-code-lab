@@ -19,10 +19,11 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 * [选择排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
 
 ## BFS 广度优先搜索
-* [迷宫问题I]()
-* [迷宫问题II]()
-* [迷宫问题III]()
-* [AI 贪食蛇]()
+* [广度遍历二叉树](./src/main/java/org/razertory/datastructure/bfs/Tree.java)
+
+
+## DFS 深度优先搜索
+* [深度遍历二叉树](./src/main/java/org/razertory/datastructure/dfs/Tree.java)
 
 ## 动态规划
 * [硬币找零](./src/main/java/org/razertory/datastructure/dp/Coin.java)
