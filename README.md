@@ -6,21 +6,27 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 # 目录
 
 ## 字符串
-* [x] [Java 中 String 的 equals 和 ==](./src/main/java/org/razertory/datastructure/string/StringEqual.java)
-* [x] [KMP 算法](./src/main/java/org/razertory/datastructure/string/KMP.java)
+* [Java 中 String 的 equals 和 ==](./src/main/java/org/razertory/datastructure/string/StringEqual.java)
+* [KMP 算法](./src/main/java/org/razertory/datastructure/string/KMP.java)
 
 ## 排序
-* [x] [冒泡排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [x] [插入排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [x] [插入排序优化版](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [x] [归并排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [x] [快速排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [x] [第 K 大的数 （快排实现）](./src/main/java/org/razertory/datastructure/sort/KthBigest.java)
-* [x] [选择排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [冒泡排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [插入排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [插入排序优化版](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [归并排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [快速排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [第 K 大的数 （快排实现）](./src/main/java/org/razertory/datastructure/sort/KthBigest.java)
+* [选择排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+
+## BFS 广度优先搜索
+* [迷宫问题I]()
+* [迷宫问题II]()
+* [迷宫问题III]()
+* [AI 贪食蛇]()
 
 ## 动态规划
-* [x] [硬币找零](./src/main/java/org/razertory/datastructure/dp/Coin.java)
-* [x] [是否存在子集合](./src/main/java/org/razertory/datastructure/dp/SubsetSum.java)
+* [硬币找零](./src/main/java/org/razertory/datastructure/dp/Coin.java)
+* [是否存在子集合](./src/main/java/org/razertory/datastructure/dp/SubsetSum.java)
 
 # FAQ
 *谁适合这个项目？*

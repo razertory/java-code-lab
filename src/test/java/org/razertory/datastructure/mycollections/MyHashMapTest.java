@@ -40,6 +40,7 @@ public class MyHashMapTest {
         }
     }
 
+    // 用于和自己写的HashMap比较性能
     @Test
     public void testPutTooManyHashMap() {
         int time = 10000;

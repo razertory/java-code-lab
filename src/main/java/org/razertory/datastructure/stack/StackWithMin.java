@@ -13,7 +13,7 @@ public class StackWithMin extends Stack<Integer> {
 	public StackWithMin(){
 		stackMin = new Stack<Integer>();
 	}
-	
+
 	public void push(Integer item){
         if(item <= min()){
             stackMin.push(item);
@@ -29,10 +29,6 @@ public class StackWithMin extends Stack<Integer> {
         return value;
     }
 	
-	/**
-	 * 取得栈中的最小值
-	 * @return
-	 */
 	public Integer min(){
         if(stackMin.isEmpty()){
             return Integer.MAX_VALUE;
