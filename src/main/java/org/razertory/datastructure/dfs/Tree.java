@@ -3,6 +3,7 @@ package org.razertory.datastructure.dfs;
 import org.razertory.datastructure.TreeNode;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class Tree {
     ArrayList<Integer> order = new ArrayList<>();
@@ -31,6 +32,23 @@ public class Tree {
             postOrderSearch(root.left);
             postOrderSearch(root.right);
             order.add(root.value);
+        }
+        return order.stream().toArray(Integer[]::new);
+    }
+
+    public Integer[] preOrderSearchWithStack(TreeNode root){
+        Stack<TreeNode> stack = new Stack<>();
+
+        stack.push(root);
+        while(!stack.empty()) {
+            TreeNode node = stack.pop();
+            order.add(node.value);
+            if(node.right != null) {
+                stack.push(node.right);
+            }
+            if(node.left != null) {
+                stack.push(node.left);
+            }
         }
         return order.stream().toArray(Integer[]::new);
     }
