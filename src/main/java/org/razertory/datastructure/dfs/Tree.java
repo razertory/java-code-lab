@@ -9,7 +9,6 @@ import java.util.Stack;
 public class Tree {
     ArrayList<Integer> order = new ArrayList<>();
 
-
     public Integer[] preOrderSearch(TreeNode root){
         if (root != null) {
             order.add(root.value);
