@@ -28,13 +28,18 @@ public class TreeTest {
     }
 
     @Test
-    public void orderSearch() {
+    public void postOrderSearch() {
         Assert.assertArrayEquals(new Integer[] {7, 9, 5, 3, 8, 1}, tree.postOrderSearch(root));
     }
 
     @Test
     public void preOrderSearchWithStack() {
         Assert.assertArrayEquals(new Integer[] {1, 5, 7, 9, 8, 3}, tree.preOrderSearchWithStack(root));
+    }
+
+    @Test
+    public void inOrderSearchWithStack() {
+        Assert.assertArrayEquals(new Integer[] {7, 5, 9, 1, 3, 8}, tree.inOrderSearchWithStack(root));
     }
 
 }
