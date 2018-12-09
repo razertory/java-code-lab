@@ -3,6 +3,7 @@ package org.razertory.datastructure.dfs;
 import org.razertory.datastructure.TreeNode;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Stack;
 
 public class Tree {
@@ -14,24 +15,6 @@ public class Tree {
             order.add(root.value);
             preOrderSearch(root.left);
             preOrderSearch(root.right);
-        }
-        return order.stream().toArray(Integer[]::new);
-    }
-
-    public Integer[] inOrderSearch(TreeNode root){
-        if (root != null) {
-            inOrderSearch(root.left);
-            order.add(root.value);
-            inOrderSearch(root.right);
-        }
-        return order.stream().toArray(Integer[]::new);
-    }
-
-    public Integer[] postOrderSearch(TreeNode root){
-        if (root != null) {
-            postOrderSearch(root.left);
-            postOrderSearch(root.right);
-            order.add(root.value);
         }
         return order.stream().toArray(Integer[]::new);
     }
@@ -52,6 +35,15 @@ public class Tree {
         return order.stream().toArray(Integer[]::new);
     }
 
+    public Integer[] inOrderSearch(TreeNode root){
+        if (root != null) {
+            inOrderSearch(root.left);
+            order.add(root.value);
+            inOrderSearch(root.right);
+        }
+        return order.stream().toArray(Integer[]::new);
+    }
+
     public Integer[] inOrderSearchWithStack(TreeNode root){
         Stack<TreeNode> stack = new Stack<>();
         while (root != null || !stack.empty()) {
@@ -63,6 +55,34 @@ public class Tree {
             order.add(root.value);
             root = root.right;
         }
+        return order.stream().toArray(Integer[]::new);
+    }
+
+    public Integer[] postOrderSearch(TreeNode root){
+        if (root != null) {
+            postOrderSearch(root.left);
+            postOrderSearch(root.right);
+            order.add(root.value);
+        }
+        return order.stream().toArray(Integer[]::new);
+    }
+
+    public Integer[] postOrderSearchWithStack(TreeNode root){
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.empty()) {
+            TreeNode peak = stack.peek();
+            order.add(peak.value);
+            stack.pop();
+            if (peak.left != null) {
+               stack.push(peak.left);
+            }
+
+            if (peak.right != null) {
+                stack.push(peak.right);
+            }
+        }
+        Collections.reverse(order);
         return order.stream().toArray(Integer[]::new);
     }
 }
