@@ -1,5 +1,6 @@
 package org.razertory.datastructure.string;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,25 +8,19 @@ import static org.junit.Assert.*;
 
 public class KMPTest {
 
-    private StringBuilder text = new StringBuilder();        //主串
-    private StringBuilder target = new StringBuilder();      //子串
+    private KMP kmp;
+
+    private String target;      //子串
 
     @Before
     public void setUp() throws Exception {
-        int i = 0;
-        while (i < 100){
-            text.append((char) (Math.random() * 4 + 65));
-            if (i < 4){
-                target.append((char) (Math.random() * 4 + 65));
-            }
-            i++;
-        }
-        System.out.println(text);
-        System.out.println(target);
+        kmp = new KMP();
+        target = "我爱";
     }
 
     @Test
     public void kmp() {
-        System.out.println(KMP.kmp(text.toString(),target.toString()));
+        Assert.assertTrue(kmp.kmpSearch("我爱大中国", target));
+        Assert.assertFalse(kmp.kmpSearch("我不可能不爱大中国", target));
     }
 }

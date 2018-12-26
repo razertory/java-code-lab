@@ -1,22 +1,27 @@
 package org.razertory.datastructure.string;
 
 public class KMP {
-    public static int kmp(String text,String target){
+    public boolean kmpSearch(String text, String target) {
+        int kmp = kmp(text, target);
+        return kmp == -1 ? false : true;
+    }
+
+    public int kmp(String text, String target) {
         if (text == null || target == null || "".equals(text)
                 || "".equals(target))
             return -1;
         char[] targetChars = target.toCharArray();
         char[] textChars = text.toCharArray();
 
-        int textIndex = 0,targetIndex = 0;
+        int textIndex = 0, targetIndex = 0;
 
         int[] next = getNext(target);
 
-        while (targetIndex < targetChars.length && textIndex < textChars.length){
-            if (targetIndex == -1 || targetChars[targetIndex] == textChars[textIndex]){
+        while (targetIndex < targetChars.length && textIndex < textChars.length) {
+            if (targetIndex == -1 || targetChars[targetIndex] == textChars[textIndex]) {
                 ++targetIndex;
                 ++textIndex;
-            }else targetIndex = next[targetIndex];
+            } else targetIndex = next[targetIndex];
         }
 
         if (targetIndex == targetChars.length) return textIndex - targetIndex;
@@ -24,7 +29,7 @@ public class KMP {
         return -1;
     }
 
-    private static int[] getNext(String target) {
+    private int[] getNext(String target) {
         char[] p = target.toCharArray();
         int[] next = new int[p.length];
         next[0] = -1;
