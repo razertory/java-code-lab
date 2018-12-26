@@ -1,25 +1,31 @@
 package org.razertory.datastructure.string;
 
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class KMPTest {
-    KMP kmp;
+
+    private StringBuilder text = new StringBuilder();        //主串
+    private StringBuilder target = new StringBuilder();      //子串
 
     @Before
-    public void setup() {
-        this.kmp = new KMP();
+    public void setUp() throws Exception {
+        int i = 0;
+        while (i < 100){
+            text.append((char) (Math.random() * 4 + 65));
+            if (i < 4){
+                target.append((char) (Math.random() * 4 + 65));
+            }
+            i++;
+        }
+        System.out.println(text);
+        System.out.println(target);
     }
 
     @Test
-    public void kmpSearch() {
-        String pat = "我爱";
-
-        Assert.assertTrue(kmp.kmpSearch(pat, "我爱大中国"));
-
-        Assert.assertFalse(kmp.kmpSearch(pat, "我不爱大中国"));
+    public void kmp() {
+        System.out.println(KMP.kmp(text.toString(),target.toString()));
     }
 }
