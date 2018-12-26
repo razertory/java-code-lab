@@ -3,7 +3,7 @@ package org.razertory.datastructure.string;
 public class KMP {
     public boolean kmpSearch(String text, String target) {
         int kmp = kmp(text, target);
-        return kmp == -1 ? false : true;
+        return kmp != -1;
     }
 
     public int kmp(String text, String target) {
