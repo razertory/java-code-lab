@@ -7,19 +7,20 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class KMPTest {
-    KMP kmp;
+
+    private KMP kmp;
+
+    private String target;      //子串
 
     @Before
-    public void setup() {
-        this.kmp = new KMP();
+    public void setUp() throws Exception {
+        kmp = new KMP();
+        target = "我爱";
     }
 
     @Test
-    public void kmpSearch() {
-        String pat = "我爱";
-
-        Assert.assertTrue(kmp.kmpSearch(pat, "我爱大中国"));
-
-        Assert.assertFalse(kmp.kmpSearch(pat, "我不爱大中国"));
+    public void kmp() {
+        Assert.assertTrue(kmp.kmpSearch("我爱大中国", target));
+        Assert.assertFalse(kmp.kmpSearch("我不可能不爱大中国", target));
     }
 }

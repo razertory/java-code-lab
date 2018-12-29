@@ -1,52 +1,52 @@
 package org.razertory.datastructure.string;
 
-/*
- * @Author Awarker
- * KMP算法
- * 应用场景：两个字符串匹配的情况
- * 核心：KMP算法的关键是利用匹配失败后的信息，尽量减少子串与主串的匹配次数以达到快速匹配的目的
- */
 public class KMP {
-	//pat子串    txt  父串 
-    public boolean kmpSearch(String pat, String txt) {
-        int[] next = getNext(pat);
-        int res = kmp(txt, pat,next);
-        return res >= 0;
+    public boolean kmpSearch(String text, String target) {
+        int kmp = kmp(text, target);
+        return kmp != -1;
     }
-    
-    public int kmp(String str, String dest,int[] next){//str父串  dest 子串
-        for(int i = 0, j = 0; i < str.length(); i++){
-            while(j > 0 && str.charAt(i) != dest.charAt(j)){
-                j = next[j - 1];
-            }
-            if(str.charAt(i) == dest.charAt(j)){
-                j++;
-            }
-            if(j == dest.length()){
-                return i-j+1;
-            }
+
+    public int kmp(String text, String target) {
+        if (text == null || target == null || "".equals(text)
+                || "".equals(target))
+            return -1;
+        char[] targetChars = target.toCharArray();
+        char[] textChars = text.toCharArray();
+
+        int textIndex = 0, targetIndex = 0;
+
+        int[] next = getNext(target);
+
+        while (targetIndex < targetChars.length && textIndex < textChars.length) {
+            if (targetIndex == -1 || targetChars[targetIndex] == textChars[textIndex]) {
+                ++targetIndex;
+                ++textIndex;
+            } else targetIndex = next[targetIndex];
         }
+
+        if (targetIndex == targetChars.length) return textIndex - targetIndex;
+
         return -1;
     }
-    /**
-	 * 
-	 * @param str
-	 * @return
-	 * 
-	 * 这个是KMP算法最核心的部分，得出子串的重复字符，
-	 * 也就是和父串匹配失败后下一次子串匹配开始的位置
-	 */
-     public  int[] getNext(String str){
-        int[] next = new int[str.length()];
-        next[0] = 0;
-        for(int i = 1,j = 0; i < str.length(); i++){
-            while(j > 0 && str.charAt(j) != str.charAt(i)){
-                j = next[j - 1];
+
+    private int[] getNext(String target) {
+        char[] p = target.toCharArray();
+        int[] next = new int[p.length];
+        next[0] = -1;
+        int j = 0;
+        int k = -1;
+        while (j < p.length - 1) {
+            //k = -1 将k置0，将j+1
+            if (k == -1 || p[j] == p[k]) {
+                //下一个字符比较如果相等就跳过，避免子串重复回溯
+                if (p[++j] == p[++k]) {
+                    next[j] = next[k];
+                } else {
+                    next[j] = k;
+                }
+            } else {
+                k = next[k];
             }
-            if(str.charAt(i) == str.charAt(j)){
-                j++;
-            }
-            next[i] = j;
         }
         return next;
     }
