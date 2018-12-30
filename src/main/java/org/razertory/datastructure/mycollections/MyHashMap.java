@@ -56,6 +56,11 @@ public class MyHashMap {
         return size;
     }
 
+    /**
+     * 对外暴露的put方法，用于检测key，value是否为空以及扩容判断
+     * @param key
+     * @param value
+     */
     public synchronized void put(Object key, Object value) {
         if (!isEmpty(key)) {
             if(COUNT_IN_ARRAY > this.nodes.length){
@@ -67,6 +72,12 @@ public class MyHashMap {
         }
     }
 
+    /**
+     * 根据key的hash值，将value 保存到数组合适的位置
+     * @param hash
+     * @param key
+     * @param value
+     */
     private void putInArray(int hash, Object key, Object value) {
         if (this.nodes[hash] == null) {
             this.nodes[hash] = new Node(key, value);
@@ -84,6 +95,11 @@ public class MyHashMap {
         }
     }
 
+    /**
+     * 根据key值获取value
+     * @param key
+     * @return key值对应的value
+     */
     public Object getValue(Object key) {
         Node temp = this.nodes[hash(key) & this.nodes.length - 1];
         while (temp != null) {
@@ -99,8 +115,13 @@ public class MyHashMap {
         return str == null ? true : false;
     }
 
+    /**
+     * 根据key的hashcode，得到key的hash值
+     * @param key
+     * @return
+     */
     private int hash(Object key) {
-        int hash = key.hashCode(), n = nodes.length;
+        int hash = key.hashCode();
         return hash >>> 16 & hash;
     }
 
