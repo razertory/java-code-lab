@@ -26,9 +26,9 @@ public class MyHashMap {
     }
 
     /**
-     * 进行扩容操作，并进行重新的hash确保调用者能正确获取到value
-     * 扩容条件：COUNT_IN_ARRAY > nodes.length
      * @return
+     * @description 进行扩容操作，并进行重新的hash确保调用者能正确获取到value
+     *              扩容条件：COUNT_IN_ARRAY > nodes.length
      */
     private void expansion() {
         if(nodes.length < MAX_SIZE){
@@ -43,9 +43,9 @@ public class MyHashMap {
     }
 
     /**
-     * 通过移位或运算，得到当前size当前有效位数（第一个1开始及以后的位数）最大的二进制数
      * @param size
      * @return
+     * @description 通过移位或运算，得到当前size当前有效位数（第一个1开始及以后的位数）最大的二进制数
      */
     private int getBiggerBinary(int size) {
         size -= 1;
@@ -56,6 +56,11 @@ public class MyHashMap {
         return size;
     }
 
+    /**
+     * @param key
+     * @param value
+     * @description 对外暴露的put方法，用于检测key，value是否为空以及扩容判断
+     */
     public synchronized void put(Object key, Object value) {
         if (!isEmpty(key)) {
             if(COUNT_IN_ARRAY > this.nodes.length){
@@ -67,6 +72,12 @@ public class MyHashMap {
         }
     }
 
+    /**
+     * @param hash
+     * @param key
+     * @param value
+     * @description 根据key的hash值，将value 保存到数组合适的位置
+     */
     private void putInArray(int hash, Object key, Object value) {
         if (this.nodes[hash] == null) {
             this.nodes[hash] = new Node(key, value);
@@ -84,6 +95,11 @@ public class MyHashMap {
         }
     }
 
+    /**
+     * @param key
+     * @return key值对应的value
+     * @description 根据key值获取value
+     */
     public Object getValue(Object key) {
         Node temp = this.nodes[hash(key) & this.nodes.length - 1];
         while (temp != null) {
@@ -99,8 +115,13 @@ public class MyHashMap {
         return str == null ? true : false;
     }
 
+    /**
+     * @param key
+     * @return
+     * @description 根据key的hashcode，得到key的hash值
+     */
     private int hash(Object key) {
-        int hash = key.hashCode(), n = nodes.length;
+        int hash = key.hashCode();
         return hash >>> 16 & hash;
     }
 
