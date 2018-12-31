@@ -10,6 +10,11 @@ public class Fibonacci {
 
     Fibonacci(){}
 
+    /**
+     * @author razertory
+     * @date 2018/12/31
+     * @description 用于动态规划的地方初始化一个刚好够用的缓存数组
+     */
     Fibonacci(int n) {
         dp = new int[n];
     }
@@ -20,7 +25,7 @@ public class Fibonacci {
      * @description 递归实现斐波那契数列
      */
     public int fibRecur(int n) {
-        if (n == 1 || n == 2) return 1;
+        if (n < 3) return 1;
         return fibRecur(n - 1) + fibRecur(n - 2);
     }
 
@@ -48,7 +53,7 @@ public class Fibonacci {
      * @description 动态规划实现斐波那契数列
      */
     public int fibDP(int n) {
-        if (n == 1 || n == 2) return 1;
+        if (n < 3) return 1;
 
         if(dp[n] != 0) return dp[n];
 
