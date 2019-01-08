@@ -4,12 +4,10 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class LRUCacheTest {
 
-    LRUCache lruCache;
-    int[] nums;
+    private LRUCache lruCache;
+    private int[] nums;
 
     @Before
     public void setup() {
