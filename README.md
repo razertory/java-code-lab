@@ -10,7 +10,7 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 * [KMP 算法](./src/main/java/org/razertory/datastructure/string/KMP.java)
 
 # 自实现集合
-* [哈希表 HashMap](./src/main/java/org/razertory/datastructure/mycollections/MyHashMap.java)
+* [哈希表 HashMap](src/main/java/org/razertory/datastructure/advanced/MyHashMap.java)
 
 ## 排序
 * [冒泡排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)

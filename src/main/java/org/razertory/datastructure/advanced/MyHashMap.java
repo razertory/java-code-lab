@@ -1,4 +1,4 @@
-package org.razertory.datastructure.mycollections;
+package org.razertory.datastructure.advanced;
 
 public class MyHashMap {
     //默认数组初始化大小
