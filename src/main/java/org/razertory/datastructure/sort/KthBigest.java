@@ -2,47 +2,44 @@ package org.razertory.datastructure.sort;
 
 //https://www.lintcode.com/problem/kth-largest-element/description
 public class KthBigest {
+
     /**
-     * @param n:    An integer
-     * @param nums: An array
      * @return: the Kth largest element
      */
-    public int kthLargestElement(int n, int[] nums) {
-        if (nums == null) {
+    public int kthLargestElement(int k, int[] nums) {
+        if (nums == null || nums.length == 0) {
             return -1;
         }
-        return quickSort(0, nums.length - 1, n, nums);
+        return kthLargest(0, nums.length - 1, k, nums);
     }
 
-
-    public static int quickSort(int lo, int hi, int n, int[] nums) {
-        if (lo == hi) {
-            return nums[lo];
+    public int kthLargest(int low, int high, int k, int[] nums) {
+        if (low == high) {
+            return nums[low];
         }
-        int index = pos(lo, hi, nums);
-        if (index + 1 == n) {
+
+        int index = partition(low, high, nums);
+
+        if (index + 1 == k) {
             return nums[index];
-        } else if (index + 1 < n) {
-            return quickSort(index + 1, hi, n, nums);
+        } else if (index + 1 < k) {
+            return kthLargest(index + 1, high, k, nums);
         } else {
-            return quickSort(lo, index - 1, n, nums);
+            return kthLargest(low, index - 1, k, nums);
         }
-
     }
 
     //获取中间位置
-    public static int pos(int lo, int hi, int[] nums) {
+    public int partition(int lo, int hi, int[] nums) {
         int key = nums[hi];
         while (lo < hi) {
             while (nums[lo] >= key && lo < hi) {
                 lo++;
             }
-            ;
             nums[hi] = nums[lo];
             while (nums[hi] <= key && hi > lo) {
                 hi--;
             }
-            ;
             nums[lo] = nums[hi];
 
         }

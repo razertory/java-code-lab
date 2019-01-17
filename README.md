@@ -9,9 +9,6 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 * [Java 中 String 的 equals 和 ==](./src/main/java/org/razertory/datastructure/string/StringEqual.java)
 * [KMP 算法](./src/main/java/org/razertory/datastructure/string/KMP.java)
 
-# 自实现集合
-* [哈希表 HashMap](src/main/java/org/razertory/datastructure/advanced/MyHashMap.java)
-
 ## 排序
 * [冒泡排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
 * [插入排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
@@ -31,6 +28,9 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 * [硬币找零](./src/main/java/org/razertory/datastructure/dp/Coin.java)
 * [是否存在子集合](./src/main/java/org/razertory/datastructure/dp/SubsetSum.java)
 * [三种方式实现斐波那契](./src/main/java/org/razertory/datastructure/dp/Fibonacci.java)
+
+# 高级数据结构
+* [哈希表 HashMap](./src/main/java/org/razertory/datastructure/mycollections/MyHashMap.java)
 
 # FAQ
 *谁适合这个项目？*
