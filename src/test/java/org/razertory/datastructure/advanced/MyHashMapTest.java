@@ -1,4 +1,4 @@
-package org.razertory.datastructure.mycollections;
+package org.razertory.datastructure.advanced;
 
 import org.junit.Assert;
 import org.junit.Before;
