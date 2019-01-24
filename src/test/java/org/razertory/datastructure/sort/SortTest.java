@@ -72,6 +72,13 @@ public class SortTest {
 		validate();
 	}
 
+	@Test
+	public void testParallelSort(){
+	    sort = new ParallelSort();
+	    sort.sort(array);
+	    validate();
+	}
+
 	//to validate the next number is always bigger
 	private void validate(){
 		for(int i = 0; i < array.length - 1; i++){

@@ -3,9 +3,6 @@ package org.razertory.datastructure.sort;
 //https://www.lintcode.com/problem/kth-largest-element/description
 public class KthBigest {
 
-    /**
-     * @return: the Kth largest element
-     */
     public int kthLargestElement(int k, int[] nums) {
         if (nums == null || nums.length == 0) {
             return -1;
@@ -30,20 +27,21 @@ public class KthBigest {
     }
 
     //获取中间位置
-    public int partition(int lo, int hi, int[] nums) {
-        int key = nums[hi];
-        while (lo < hi) {
-            while (nums[lo] >= key && lo < hi) {
-                lo++;
-            }
-            nums[hi] = nums[lo];
-            while (nums[hi] <= key && hi > lo) {
-                hi--;
-            }
-            nums[lo] = nums[hi];
+    public int partition(int low, int high, int[] nums) {
+        int key = nums[high];
 
+        while (low < high) {
+            while (nums[low] >= key && low < high) {
+                low++;
+            }
+            nums[high] = nums[low];
+            while (nums[high] <= key && high > low) {
+                high--;
+            }
+            nums[low] = nums[high];
         }
-        nums[lo] = key;
-        return lo;
+        nums[low] = key;
+
+        return low;
     }
 }

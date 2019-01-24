@@ -1,12 +1,7 @@
-/**
- * 
- */
 package org.razertory.datastructure.sort;
 
 /**
- * 插入排序实现
- * @author razertory
- *
+ * Time O(n^2) Space O(1)
  */
 public class InsertSort extends Sort {
 

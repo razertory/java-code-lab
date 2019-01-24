@@ -16,17 +16,10 @@ public class MergeSort extends Sort {
         merge(array, low, middle, high);
     }
 
-    /**
-     * 归并array
-     *
-     * @param array
-     * @param low
-     * @param middle
-     * @param high
-     */
     private void merge(int[] array, int low, int middle, int high) {
         // 辅助数组
         int[] helper = new int[array.length];
+
         System.arraycopy(array, 0, helper, 0, high + 1);
 
         int helperLeft = low;

@@ -1,12 +1,5 @@
 package org.razertory.datastructure.stack;
 
-import org.razertory.datastructure.Node;
-
-
-/**
- * 一个能随时获取栈中最小值的栈的实现
- * @see Node
- */
 public class StackWithMin extends Stack<Integer> {
 	Stack<Integer> stackMin;
 	
