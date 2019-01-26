@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * @description BFS 遍历一颗二叉树
+ */
 public class Tree {
     ArrayList<Integer> order = new ArrayList<>();
 
