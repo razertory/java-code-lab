@@ -1,8 +1,9 @@
-package org.razertory.datastructure.linkedlist;
+package org.razertory.datastructure.advanced;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.razertory.datastructure.advanced.LRUCache;
 
 public class LRUCacheTest {
 
