@@ -1,7 +1,7 @@
 # Java Code Lab
 ![](https://img.shields.io/badge/Algorithm-WIP-orange.svg) ![](https://img.shields.io/badge/maven-3.5.x-green.svg) ![](https://img.shields.io/badge/junit-4.11-green.svg)
 
-Java 实现的数据结构、算法、设计模式、系统设计以及计算机科学相关代码，包括对应的 Junit 测试用例。[背景](http://razertory.me/datastructure/2018/06/01/start-my-coding-project.html)
+Java 实现的数据结构、算法、设计模式、系统设计以及计算机科学相关代码，包括对应的 Junit 测试用例。
 
 # 目录
 
@@ -27,10 +27,16 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 ## 动态规划
 * [硬币找零](./src/main/java/org/razertory/datastructure/dp/Coin.java)
 * [是否存在子集合](./src/main/java/org/razertory/datastructure/dp/SubsetSum.java)
-* [三种方式实现斐波那契](./src/main/java/org/razertory/datastructure/dp/Fibonacci.java)
+* [三种方式实现斐波那契](./src/main/java/org/razertory/datastructure/dp/Fibonacci.java) 递归 / 迭代 / 结果缓存
 
 # 高级数据结构
 * [哈希表 HashMap](./src/main/java/org/razertory/datastructure/mycollections/MyHashMap.java)
+* B-树 / B+树
+* 布隆过滤器
+* LRU 缓存
+
+# DSL
+* JSON 解析器
 
 # FAQ
 *谁适合这个项目？*
@@ -45,7 +51,7 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 
 三个原因：第一，证明算法是对的，不管是作者自己实现的，还是摘录他人的。第二，方便做性能测试，只需要控制入口大小就可以测出性能，用于比较。第三，方便用户 debug，对于很多人来说如果要理解程序的执行流程，最好的方式就是 debug。
 
-> Have fun testing & debugging
+> Have fun coding and testing
 
 # License
 The MIT License (MIT)
