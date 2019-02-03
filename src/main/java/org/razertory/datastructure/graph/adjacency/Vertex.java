@@ -1,7 +1,5 @@
 package org.razertory.datastructure.graph.adjacency;
 
-import java.util.Objects;
-
 public class Vertex {
     String label;
     Vertex(String label) {
@@ -10,6 +8,11 @@ public class Vertex {
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(this.label);
+        return this.label.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object vertex) {
+        return vertex != null && this.hashCode() == vertex.hashCode();
     }
 }

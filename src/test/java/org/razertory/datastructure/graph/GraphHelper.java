@@ -4,7 +4,7 @@ import org.razertory.datastructure.graph.adjacency.AGraph;
 
 public class GraphHelper {
 
-    public static AGraph createDefaultAGraph() {
+    public static AGraph createAGraph() {
         AGraph agraph = new AGraph();
         agraph.addVertex("Bob");
         agraph.addVertex("Alice");
