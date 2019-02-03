@@ -1,6 +1,6 @@
 package org.razertory.datastructure.graph.adjacency;
 
-import java.util.Objects;
+import java.math.BigInteger;
 
 public class Vertex {
     String label;
@@ -10,6 +10,6 @@ public class Vertex {
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(this.label);
+        return new BigInteger(this.label.getBytes()).intValue();
     }
 }
