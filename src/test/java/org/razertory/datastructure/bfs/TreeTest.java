@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.razertory.datastructure.TreeNode;
+import org.razertory.datastructure.tree.TreeHelper;
 
 public class TreeTest {
     private TreeNode root;
@@ -11,7 +12,7 @@ public class TreeTest {
 
     @Before
     public void setup() {
-        root = new TreeNode().getDefaultTree();
+        root = TreeHelper.createTree();
         tree = new Tree();
     }
 

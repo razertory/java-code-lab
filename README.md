@@ -15,8 +15,21 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 * [插入排序优化版](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
 * [归并排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
 * [快速排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
-* [第 K 大的数 （快排实现）](./src/main/java/org/razertory/datastructure/sort/KthBigest.java)
 * [选择排序](./src/main/java/org/razertory/datastructure/sort/BubbleSort.java)
+* [Top K 问题](./src/main/java/org/razertory/datastructure/sort/KthBigest.java)
+
+# 栈
+* [最小栈问题]()
+* [栈实现队列]()
+
+# 队列
+
+# 二叉树
+* [二叉树]()
+* [二叉搜索树]()
+* [二叉堆]()
+
+# 图
 
 ## BFS 广度优先搜索
 * [广度遍历二叉树](./src/main/java/org/razertory/datastructure/bfs/Tree.java)
@@ -24,18 +37,21 @@ Java 实现的数据结构、算法、设计模式、系统设计以及计算机
 ## DFS 深度优先搜索
 * [深度遍历二叉树](./src/main/java/org/razertory/datastructure/dfs/Tree.java)
 
+## 贪心
+
 ## 动态规划
 * [硬币找零](./src/main/java/org/razertory/datastructure/dp/Coin.java)
 * [是否存在子集合](./src/main/java/org/razertory/datastructure/dp/SubsetSum.java)
 * [三种方式实现斐波那契](./src/main/java/org/razertory/datastructure/dp/Fibonacci.java) 递归 / 迭代 / 结果缓存
 
 # 高级数据结构
-* [哈希表 HashMap](./src/main/java/org/razertory/datastructure/mycollections/MyHashMap.java)
-* B-树 / B+树
+* [HashMap](./src/main/java/org/razertory/datastructure/mycollections/MyHashMap.java)
+* B树
+* B+树
 * 布隆过滤器
 * LRU 缓存
 
-# DSL
+# 附
 * JSON 解析器
 
 # FAQ
