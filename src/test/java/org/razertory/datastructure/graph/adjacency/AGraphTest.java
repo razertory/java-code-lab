@@ -14,17 +14,30 @@ public class AGraphTest {
 
     @Test
     public void addVertex() {
+        aGraph.addVertex("Nikita");
     }
 
     @Test
     public void removeVertex() {
+        aGraph.addVertex("Nikita");
+        aGraph.removeVertex("Nikita");
     }
 
     @Test
     public void addEdge() {
+        aGraph.addVertex("Nikita");
+        aGraph.addEdge("Bob", "Nikita");
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void addErrorEdge() {
+        aGraph.addEdge("Bob", "Nikita");
     }
 
     @Test
     public void removeEdge() {
+        aGraph.addVertex("Nikita");
+        aGraph.addEdge("Bob", "Nikita");
+        aGraph.removeEdge("Nikita", "Bob");
     }
 }

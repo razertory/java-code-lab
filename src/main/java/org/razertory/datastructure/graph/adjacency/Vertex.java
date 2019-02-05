@@ -2,6 +2,7 @@ package org.razertory.datastructure.graph.adjacency;
 
 public class Vertex {
     String label;
+
     Vertex(String label) {
         this.label = label;
     }
