@@ -3,9 +3,11 @@ package org.razertory.datastructure.graph.adjacency;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
 
-// https://www.baeldung.com/java-graphs
+/*
+ * 树的临接表表示法
+ * 临接表 adjVertices 就是将每个节点 vertex 作为 key, 与之相连的节点组成的数组或链表作为 value 最终形成的数据结构
+ */
 public class AGraph {
     private HashMap<Vertex, List<Vertex>> adjVertices;
 
@@ -18,11 +20,6 @@ public class AGraph {
     }
 
     public void removeVertex(String label) {
-        Vertex v = new Vertex(label);
-        adjVertices.values()
-                .stream()
-                .map(e -> e.remove(v))
-                .collect(Collectors.toList());
         adjVertices.remove(new Vertex(label));
     }
 

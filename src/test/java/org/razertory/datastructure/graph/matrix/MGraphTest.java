@@ -5,11 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.razertory.datastructure.graph.GraphHelper;
 
-import static org.junit.Assert.*;
 
 public class MGraphTest {
 
-    MGraph mGraph;
+    private MGraph mGraph;
 
     @Before
     public void setUp() {
