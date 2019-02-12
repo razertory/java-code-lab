@@ -1,0 +1,16 @@
+{
+  "name":"summer",
+  "age": 22,
+  "pets": [
+    {
+      "name": "alice",
+      "species": "dog",
+      "age": 3
+    },
+    {
+      "name": "kuba",
+      "species": "cat",
+      "age": 1
+    }
+  ]
+}

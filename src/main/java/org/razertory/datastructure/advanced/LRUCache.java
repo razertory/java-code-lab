@@ -1,4 +1,4 @@
-package org.razertory.datastructure.linkedlist;
+package org.razertory.datastructure.advanced;
 
 import java.util.HashMap;
 
@@ -7,7 +7,7 @@ import java.util.HashMap;
  * @date 2019/1/2
  * @description LRU 缓存算法 双向链表 + HashMap 实现
  **/
-public class LRUCache {
+class LRUCache {
 
     // 双链表的节点
     private class Node {
@@ -58,14 +58,14 @@ public class LRUCache {
         head.pre = cur;
     }
 
-    public int get(int key) {
+    int get(int key) {
         if (!map.containsKey(key)) return -1;
         Node node = map.get(key);
         move2Head(node);
         return node.val;
     }
 
-    public void put(int key, int val) {
+    void put(int key, int val) {
         if (map.containsKey(key)) {
             Node node = map.get(key);
             node.val = val;

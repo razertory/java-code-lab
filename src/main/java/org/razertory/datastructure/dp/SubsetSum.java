@@ -19,7 +19,7 @@ public class SubsetSum {
         if (value == 0) {
             return true;
         }
-        if (n == 0 && value != 0) {
+        if (n == 0) {
             return false;
         }
         if (set[n - 1] > value) {
