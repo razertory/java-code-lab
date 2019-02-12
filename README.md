@@ -28,7 +28,7 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 
 ### 栈
 * [最小栈](./src/main/java/org/razertory/javacodelab/stack/StackWithMin.java)
-* [栈实现队列]
+* [栈实现队列](./src/main/java/org/razertory/javacodelab/stack/MyQueue.java)
 
 ### 队列
 

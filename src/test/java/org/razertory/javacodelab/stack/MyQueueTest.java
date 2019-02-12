@@ -26,7 +26,7 @@ public class MyQueueTest {
     public void pop() {
         myQueue.push(1);
         myQueue.push(3);
-        myQueue.pop();
+        Assert.assertEquals(1, myQueue.pop());
         Assert.assertEquals(3, myQueue.peek());
     }
 
