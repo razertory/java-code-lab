@@ -12,37 +12,44 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 
 ## 目录
 
-### 字符串
-* [Java 中 String 的 equals 和 ==](src/main/java/org/razertory/javacodelab/string/StringEqual.java)
-* [KMP 算法](src/main/java/org/razertory/javacodelab/string/KMP.java)
-
 ### 排序
 * [冒泡排序](src/main/java/org/razertory/javacodelab/sort/BubbleSort.java)
-* [插入排序](src/main/java/org/razertory/javacodelab/sort/BubbleSort.java)
-* [插入排序优化版](src/main/java/org/razertory/javacodelab/sort/BubbleSort.java)
-* [归并排序](src/main/java/org/razertory/javacodelab/sort/BubbleSort.java)
-* [快速排序](src/main/java/org/razertory/javacodelab/sort/BubbleSort.java)
-* [选择排序](src/main/java/org/razertory/javacodelab/sort/BubbleSort.java)
-* [Top K 问题](src/main/java/org/razertory/javacodelab/sort/KthBigest.java)
+* [插入排序](/Users/chenlichun/github/Java-code-lab/src/main/java/org/razertory/javacodelab/sort/InsertSort.java)
+* [插入排序优化版](/Users/chenlichun/github/Java-code-lab/src/main/java/org/razertory/javacodelab/sort/InsertOptimizeSort.java)
+* [归并排序](/Users/chenlichun/github/Java-code-lab/src/main/java/org/razertory/javacodelab/sort/MergeSort.java)
+* [快速排序](/Users/chenlichun/github/Java-code-lab/src/main/java/org/razertory/javacodelab/sort/QuickSort.java)
+* [选择排序](/Users/chenlichun/github/Java-code-lab/src/main/java/org/razertory/javacodelab/sort/SelectionSort.java)
+* [第 K 大的数](src/main/java/org/razertory/javacodelab/sort/KthBigest.java)
+
+### 字符串
+* [Java 的字符串](src/main/java/org/razertory/javacodelab/string/StringEqual.java)
+* [KMP 算法](src/main/java/org/razertory/javacodelab/string/KMP.java)
 
 ### 栈
-* [最小栈问题]()
+* [最小栈](/Users/chenlichun/github/Java-code-lab/src/main/java/org/razertory/javacodelab/stack/StackWithMin.java)
 * [栈实现队列]()
 
 ### 队列
 
 ### 二叉树
-* [二叉树]()
-* [二叉搜索树]()
-* [二叉堆]()
+* [二叉树的节点](/Users/chenlichun/github/Java-code-lab/src/main/java/org/razertory/javacodelab/TreeNode.java)
+* [构建二叉树](/Users/chenlichun/github/Java-code-lab/src/test/java/org/razertory/javacodelab/tree/TreeHelper.java)
 
 ### 图
+* [矩阵表示法]()
+* [临接表表示法]()
+* [Prim 最小生成树]()
+* [Kruskal 最小生成树]()
+* [Floyd 最短路径]()
+* [Dijkstra 最短路径]()
 
-### BFS 广度优先搜索
+### 广度优先搜索
 * [广度遍历二叉树](src/main/java/org/razertory/javacodelab/bfs/Tree.java)
+* [广度遍历图](src/main/java/org/razertory/javacodelab/bfs/Tree.java)
 
-### DFS 深度优先搜索
+### 深度优先搜索
 * [深度遍历二叉树](src/main/java/org/razertory/javacodelab/dfs/Tree.java)
+* [深度遍历图](src/main/java/org/razertory/javacodelab/dfs/Tree.java)
 
 ### 贪心
 
@@ -52,6 +59,8 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 * [三种方式实现斐波那契](src/main/java/org/razertory/javacodelab/dp/Fibonacci.java) 递归 / 迭代 / 结果缓存
 
 ### 高级数据结构
+* [二叉搜索树]()
+* [二叉堆]()
 * [HashMap](src/main/java/org/razertory/javacodelab/mycollections/MyHashMap.java)
 * B树
 * B+树
