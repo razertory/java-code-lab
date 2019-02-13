@@ -1,47 +1,56 @@
 package org.razertory.javacodelab.sort;
 
-//https://www.lintcode.com/problem/kth-largest-element/description
-public class KthBigest {
+import java.util.PriorityQueue;
 
-    public int kthLargestElement(int k, int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return -1;
-        }
-        return kthLargest(0, nums.length - 1, k, nums);
+//https://leetcode.com/problems/kth-largest-element-in-an-array
+class KthBigest {
+
+    // 快速排序法
+    int findByQuickSort(int k, int[] nums) {
+        return findByQuickSort(k, nums, 0, nums.length - 1);
     }
 
-    public int kthLargest(int low, int high, int k, int[] nums) {
-        if (low == high) {
-            return nums[low];
-        }
-
-        int index = partition(low, high, nums);
-
-        if (index + 1 == k) {
-            return nums[index];
-        } else if (index + 1 < k) {
-            return kthLargest(index + 1, high, k, nums);
-        } else {
-            return kthLargest(low, index - 1, k, nums);
-        }
+    private int findByQuickSort(int k, int[] nums, int left, int right) {
+        int n = partition(nums, left, right);
+        if (n == k - 1)
+            return nums[n];
+        else if (n < k - 1)
+            return findByQuickSort(k, nums, n + 1, right);
+        else
+            return findByQuickSort(k, nums, left, n - 1);
     }
 
-    //获取中间位置
-    public int partition(int low, int high, int[] nums) {
-        int key = nums[high];
-
-        while (low < high) {
-            while (nums[low] >= key && low < high) {
-                low++;
+    // 大的左边，小的右边
+    private int partition(int[] array, int low, int high){
+        int left = low;
+        int pivot = array[high];
+        for(int i = low; i < high; i++) {
+            if (array[i] > pivot) {
+                int temp = array[i];
+                array[i] = array[left];
+                array[left] = temp;
+                left++;
             }
-            nums[high] = nums[low];
-            while (nums[high] <= key && high > low) {
-                high--;
-            }
-            nums[low] = nums[high];
         }
-        nums[low] = key;
+        int temp = array[left];
+        array[left] = pivot;
+        array[high] = temp;
+        return left;
+    }
 
-        return low;
+    // 优先队列法
+    int findWithPriorityQueue(int k, int[] nums) {
+        PriorityQueue<Integer> queue = new PriorityQueue<Integer>();
+        for (int i = 0; i < k; i++) {
+            queue.add(nums[i]);
+        }
+        int cur = queue.poll();
+        for (int i = k; i < nums.length; i++) {
+            if (nums[i] > cur) {
+                queue.add(nums[i]);
+                cur = queue.poll();
+            }
+        }
+        return cur;
     }
 }

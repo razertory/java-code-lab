@@ -6,7 +6,7 @@ public class QuickSort extends Sort {
 		quickSort(array, 0, array.length - 1);
 	}
 
-	private void quickSort(int[] array, int left, int right){
+	public void quickSort(int[] array, int left, int right){
 	    if (left < right) {
 			int index = partition(array, left, right);
 			quickSort(array, left, index -1);
@@ -14,7 +14,7 @@ public class QuickSort extends Sort {
 		}
 	}
 	
-	private int partition(int[] array, int low, int high){
+	public int partition(int[] array, int low, int high){
 		int left = low;
 		int pivot = array[high];
 		for(int i = low; i < high; i++) {
@@ -26,9 +26,9 @@ public class QuickSort extends Sort {
 			}
 		}
 		int temp = array[left];
-		array[left] = pivot; //or array[high]
+		array[left] = pivot;
 		array[high] = temp;
-		return  left;
+		return left;
 	}
 
 }
