@@ -13,7 +13,7 @@ public class TreeHelper {
     //                 1
     //               /   \
     //             5       8
-    //           /   \   /   \
+    //           /   \   /
     //         7      9  3
     public static TreeNode createTree() {
         TreeNode root = new TreeNode(1);
