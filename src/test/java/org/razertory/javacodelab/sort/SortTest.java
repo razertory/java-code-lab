@@ -18,7 +18,7 @@ import java.util.Random;
  * @see QuickSort
  */
 public class SortTest {
-	int size = 100000;
+	int size = 1000;
 	int[] array = new int[size];
 	Sort sort;
 	
