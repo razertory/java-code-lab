@@ -1,14 +1,9 @@
-/**
- * 
- */
 package org.razertory.javacodelab.sort;
 
 /**
- * 插入排序优化实现
- * @author razertory
- *
+ * 优化后的插入排序
  */
-public class InsertOptimizeSort extends Sort {
+public class InsertOptimizeSort {
 
 	public void sort(int[] array) {
 		for(int i = 1; i < array.length; i++){

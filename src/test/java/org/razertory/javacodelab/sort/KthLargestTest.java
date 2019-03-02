@@ -4,25 +4,25 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class KthBigestTest {
-    private int index = 1;
+public class KthLargestTest {
+    private int k = 1;
     private int []nums = null;
-    private KthBigest kthBigest = null;
+    private KthLargest kthLargest = null;
 
     @Before
     public void setup() {
-       index = 2;
+       k = 2;
        nums = new int[]{3,2,1,5,6,4};
-       kthBigest = new KthBigest();
+       kthLargest = new KthLargest();
     }
 
     @Test
     public void kthLargestElement() {
-        Assert.assertEquals(5, kthBigest.findByQuickSort(index, nums));
+        Assert.assertEquals(5, kthLargest.findByQuickSort(k, nums));
     }
 
     @Test
     public void kthLargestElementByQueue() {
-        Assert.assertEquals(5, kthBigest.findWithPriorityQueue(index, nums));
+        Assert.assertEquals(5, kthLargest.findWithPriorityQueue(k, nums));
     }
 }

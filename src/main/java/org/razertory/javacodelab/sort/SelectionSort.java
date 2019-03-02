@@ -1,6 +1,6 @@
 package org.razertory.javacodelab.sort;
 
-public class SelectionSort extends Sort {
+public class SelectionSort {
 
 	public void sort(int[] array) {
 

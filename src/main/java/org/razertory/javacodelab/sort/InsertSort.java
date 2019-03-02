@@ -1,11 +1,11 @@
 package org.razertory.javacodelab.sort;
 
-/**
- * Time O(n^2) Space O(1)
+/*
+ * 插入排序
+ * T: O(n^2) S: O(1)
  */
-public class InsertSort extends Sort {
+public class InsertSort {
 
-	@Override
 	public void sort(int[] array) {
 		
 		for(int i = 1; i < array.length; i++){
