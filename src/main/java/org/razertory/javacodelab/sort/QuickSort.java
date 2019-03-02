@@ -1,8 +1,8 @@
 package org.razertory.javacodelab.sort;
 
-public class QuickSort {
+class QuickSort {
 
-	public void sort(int[] array) {
+	void sort(int[] array) {
 		quickSort(array, 0, array.length - 1);
 	}
 

@@ -1,8 +1,8 @@
 package org.razertory.javacodelab.sort;
 
-public class MergeSort {
+class MergeSort {
 
-    public void sort(int[] array) {
+    void sort(int[] array) {
         mergeSort(array, 0, array.length - 1);
     }
 

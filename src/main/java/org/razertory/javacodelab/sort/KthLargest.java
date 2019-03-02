@@ -2,7 +2,7 @@ package org.razertory.javacodelab.sort;
 
 import java.util.PriorityQueue;
 
-//https://leetcode.com/problems/kth-largest-element-in-an-array
+// https://leetcode.com/problems/kth-largest-element-in-an-array
 class KthLargest {
 
     // 快速排序法

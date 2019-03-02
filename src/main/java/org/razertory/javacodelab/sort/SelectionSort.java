@@ -1,8 +1,8 @@
 package org.razertory.javacodelab.sort;
 
-public class SelectionSort {
+class SelectionSort {
 
-	public void sort(int[] array) {
+	void sort(int[] array) {
 
 		for(int i = 0; i < array.length; i++){
 			int temp = array[i];

@@ -5,7 +5,7 @@ import java.util.Stack;
 /*
  * 栈实现队列
  */
-public class MyQueue {
+class MyQueue {
 
     private Stack<Integer> in, out;
 
