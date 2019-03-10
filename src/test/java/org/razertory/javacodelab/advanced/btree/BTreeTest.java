@@ -21,6 +21,7 @@ public class BTreeTest {
         bTree.insert(7);
         bTree.insert(17);
     }
+
     @Test
     public void traverse() {
     }

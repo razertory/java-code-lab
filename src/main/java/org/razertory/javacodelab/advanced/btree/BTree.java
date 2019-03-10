@@ -1,6 +1,6 @@
 package org.razertory.javacodelab.advanced.btree;
 
-public class BTree {
+class BTree {
     BTreeNode root;
     int t;
 

@@ -38,14 +38,14 @@ class BTreeNode {
         BTreeNode z = new BTreeNode(y.t, y.leaf);
         z.n = t - 1;
         for (int j = 0; j < t - 1; j++)
-            z.keys[j] = y.keys[j+t];
+            z.keys[j] = y.keys[j + t];
         if (!y.leaf) {
             for (int j = 0; j < t; j++)
-                z.children[j] = y.children[j+t];
+                z.children[j] = y.children[j + t];
         }
         y.n = t - 1;
         for (int j = n; j >= i + 1; j--)
-            keys[j+1] = keys[j];
+            keys[j + 1] = keys[j];
         keys[i] = y.keys[t - 1];
         n = n + 1;
     }
@@ -58,12 +58,14 @@ class BTreeNode {
                 i--;
             }
         } else {
-            while (i >= 0 && keys[i] > key) i--;
+            while (i >= 0 && keys[i] > key)
+                i--;
             if (children[i + 1].n == 2 * t - 1) {
-                splitChild(i+1, children[i+1]);
-                if (keys[i+1] < key) i++;
+                splitChild(i + 1, children[i + 1]);
+                if (keys[i + 1] < key)
+                    i++;
             }
-       }
-        children[i+1].insertNonFull(key);
+        }
+        children[i + 1].insertNonFull(key);
     }
 }
