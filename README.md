@@ -1,7 +1,7 @@
 # Java Codelab
 ![](https://img.shields.io/badge/maven-3.5.x-green.svg) ![](https://img.shields.io/badge/junit-4.11-green.svg)
 
-Java 实现的数据结构/算法以及计算机科学相关的代码和完整的 Junit 测试用例。
+Java 实现的数据结构/算法以及计算机科学相关的代码和完整的 Junit 测试用例。欢迎 PR
 
 ## 介绍
 此项目适用处于打基础的黄金时间的在校大学生，正在准备找工作的求职者，自我提高的在职者。考虑到 Java 人数多，年龄分布广，不管是工龄 10+ 的程序员还是在校大学生，都可以驾驭的特点，此项目由 Java 8 + Maven 3.5 + Junit 4.11 构建。
@@ -85,11 +85,17 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 
 # 参考
 算法导论
+
 Geeks for Geeks
+
 AlgoCasts
+
 July 编程之法
+
 极客时间
+
 Leetcode
+
 Lintcode
 
 # License
