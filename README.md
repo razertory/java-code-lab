@@ -1,4 +1,4 @@
-# Java Codelab
+# Java Code Lab
 ![](https://img.shields.io/badge/maven-3.5.x-green.svg) ![](https://img.shields.io/badge/junit-4.11-green.svg)
 
 Java 实现的数据结构/算法以及计算机科学相关的代码和完整的 Junit 测试用例。
