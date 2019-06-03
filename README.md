@@ -21,6 +21,9 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 
 ## 目录
 
+### 字符串
+* [Java 的字符串](./src/main/java/org/razertory/javacodelab/string/StringEqual.java)
+
 ### 排序
 * [冒泡排序](./src/main/java/org/razertory/javacodelab/sort/BubbleSort.java)
 * [插入排序](./src/main/java/org/razertory/javacodelab/sort/InsertSort.java)
@@ -30,16 +33,13 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 * [选择排序](./src/main/java/org/razertory/javacodelab/sort/SelectionSort.java)
 * [第 K 大的数](./src/main/java/org/razertory/javacodelab/sort/KthBigest.java) 快速排序法／堆排序法
 
-### 字符串
-* [Java 的字符串](./src/main/java/org/razertory/javacodelab/string/StringEqual.java)
-
 ### 栈
 * [随时获取最小值的栈](./src/main/java/org/razertory/javacodelab/stack/StackWithMin.java)
 * [栈实现队列](./src/main/java/org/razertory/javacodelab/stack/MyQueue.java)
 
 ### 二叉树
-* [二叉树基础](./src/main/java/org/razertory/javacodelab/tree/Tree.java)
-* [重建二叉树](./src/main/java/org/razertory/javacodelab/tree/RebuildTree.java)
+* 二叉树基础 [最大深度，最小深度，增加节点，删除节点](./src/main/java/org/razertory/javacodelab/tree/Tree.java) 
+* 还原二叉树 [已知先序，中序](./src/main/java/org/razertory/javacodelab/tree/RebuildTree.java) TODO
 
 ### 图
 * [矩阵表示法](./src/main/java/org/razertory/javacodelab/graph/matrix)
@@ -49,11 +49,11 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 * [广度遍历二叉树](./src/main/java/org/razertory/javacodelab/bfs/Tree.java)
 
 ### 深度优先搜索
-* [深度遍历二叉树](./src/main/java/org/razertory/javacodelab/dfs/Tree.java)
+* 深度遍历二叉树[先序，中序，后序](./src/main/java/org/razertory/javacodelab/dfs/Tree.java)
 
 ### 动态规划
-* [三种方式实现斐波那契](./src/main/java/org/razertory/javacodelab/dp/Fibonacci.java) 递归 / 迭代 / 结果缓存
-* [硬币找零](./src/main/java/org/razertory/javacodelab/dp/Coin.java)
+* 三种方式实现斐波那契[ 递归，迭代，结果缓存](./src/main/java/org/razertory/javacodelab/dp/Fibonacci.java)
+* [硬币找零问题](./src/main/java/org/razertory/javacodelab/dp/Coin.java)
 * [是否存在子集合](./src/main/java/org/razertory/javacodelab/dp/SubsetSum.java)
 
 ### 高级数据结构
