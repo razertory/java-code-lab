@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.razertory</groupId>
-  <artifactId>java-codelab</artifactId>
+  <artifactId>java-code-lab</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>java-codelab</name>
+  <name>java-code-lab</name>
   <url>http://maven.apache.org</url>
 
   <properties>
