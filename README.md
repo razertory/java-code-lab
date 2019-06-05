@@ -39,7 +39,7 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 
 ### 二叉树
 * 二叉树基础 [最大深度，最小深度，增加节点，删除节点](./src/main/java/org/razertory/javacodelab/tree/Tree.java) 
-* 还原二叉树 [已知先序，中序](./src/main/java/org/razertory/javacodelab/tree/RebuildTree.java) TODO
+* 还原二叉树 [已知先序，中序](./src/main/java/org/razertory/javacodelab/tree/RebuildTree.java)
 
 ### 图
 * [矩阵表示法](./src/main/java/org/razertory/javacodelab/graph/matrix)
