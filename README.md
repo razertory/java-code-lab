@@ -33,12 +33,15 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 * [选择排序](./src/main/java/org/razertory/javacodelab/sort/SelectionSort.java)
 * [第 K 大的数](./src/main/java/org/razertory/javacodelab/sort/KthBigest.java) 快速排序法／堆排序法
 
+### 链表
+* [反转链表](./src/main/java/org/razertory/javacodelab/linkedlist/ReverseLinkedList.java)
+
 ### 栈
 * [随时获取最小值的栈](./src/main/java/org/razertory/javacodelab/stack/StackWithMin.java)
 * [栈实现队列](./src/main/java/org/razertory/javacodelab/stack/MyQueue.java)
 
 ### 二叉树
-* 二叉树基础 [最大深度，最小深度，增加节点，删除节点](./src/main/java/org/razertory/javacodelab/tree/Tree.java) 
+* 二叉树基础 [最大深度，最小深度](./src/main/java/org/razertory/javacodelab/tree/Tree.java)
 * 还原二叉树 [已知先序，中序](./src/main/java/org/razertory/javacodelab/tree/RebuildTree.java)
 
 ### 图

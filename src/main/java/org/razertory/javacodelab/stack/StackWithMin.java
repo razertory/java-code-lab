@@ -1,5 +1,7 @@
 package org.razertory.javacodelab.stack;
 
+import java.util.Stack;
+
 public class StackWithMin extends Stack<Integer> {
 	Stack<Integer> stackMin;
 	
@@ -7,11 +9,12 @@ public class StackWithMin extends Stack<Integer> {
 		stackMin = new Stack<Integer>();
 	}
 
-	public void push(Integer item){
+	public Integer push(Integer item){
         if(item <= min()){
             stackMin.push(item);
         }
         super.push(item);
+        return item;
     }
 	
 	public Integer pop(){
