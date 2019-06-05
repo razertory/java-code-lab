@@ -31,7 +31,7 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 * [归并排序](./src/main/java/org/razertory/javacodelab/sort/MergeSort.java)
 * [快速排序](./src/main/java/org/razertory/javacodelab/sort/QuickSort.java)
 * [选择排序](./src/main/java/org/razertory/javacodelab/sort/SelectionSort.java)
-* [第 K 大的数](./src/main/java/org/razertory/javacodelab/sort/KthBigest.java) 快速排序法／堆排序法
+* 第 K 大的数 [快速排序法／堆排序法](./src/main/java/org/razertory/javacodelab/sort/KthLargest.java)
 
 ### 链表
 * [反转链表](./src/main/java/org/razertory/javacodelab/linkedlist/ReverseLinkedList.java)
