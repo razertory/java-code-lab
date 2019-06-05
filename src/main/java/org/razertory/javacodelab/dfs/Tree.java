@@ -9,16 +9,16 @@ import java.util.Stack;
 public class Tree {
     ArrayList<Integer> order = new ArrayList<>();
 
-    public Integer[] preOrderSearch(TreeNode root){
+    public ArrayList<Integer> preOrderSearch(TreeNode root){
         if (root != null) {
             order.add(root.value);
             preOrderSearch(root.left);
             preOrderSearch(root.right);
         }
-        return order.stream().toArray(Integer[]::new);
+        return order;
     }
 
-    public Integer[] preOrderSearchWithStack(TreeNode root){
+    public ArrayList<Integer> preOrderSearchWithStack(TreeNode root){
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
         while(!stack.empty()) {
@@ -31,19 +31,19 @@ public class Tree {
                 stack.push(node.left);
             }
         }
-        return order.stream().toArray(Integer[]::new);
+        return order;
     }
 
-    public Integer[] inOrderSearch(TreeNode root){
+    public ArrayList<Integer> inOrderSearch(TreeNode root){
         if (root != null) {
             inOrderSearch(root.left);
             order.add(root.value);
             inOrderSearch(root.right);
         }
-        return order.stream().toArray(Integer[]::new);
+        return order;
     }
 
-    public Integer[] inOrderSearchWithStack(TreeNode root){
+    public ArrayList<Integer> inOrderSearchWithStack(TreeNode root){
         Stack<TreeNode> stack = new Stack<>();
         while (root != null || !stack.empty()) {
             while (root != null) {
@@ -54,19 +54,19 @@ public class Tree {
             order.add(root.value);
             root = root.right;
         }
-        return order.stream().toArray(Integer[]::new);
+        return order;
     }
 
-    public Integer[] postOrderSearch(TreeNode root){
+    public ArrayList<Integer> postOrderSearch(TreeNode root){
         if (root != null) {
             postOrderSearch(root.left);
             postOrderSearch(root.right);
             order.add(root.value);
         }
-        return order.stream().toArray(Integer[]::new);
+        return order;
     }
 
-    public Integer[] postOrderSearchWithStack(TreeNode root){
+    public ArrayList<Integer> postOrderSearchWithStack(TreeNode root){
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
         while (!stack.empty()) {
@@ -82,6 +82,6 @@ public class Tree {
             }
         }
         Collections.reverse(order);
-        return order.stream().toArray(Integer[]::new);
+        return order;
     }
 }
