@@ -23,6 +23,8 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 
 ### 字符串
 * [Java 的字符串](./src/main/java/org/razertory/javacodelab/string/StringEqual.java)
+* [最长公共前缀](./src/main/java/org/razertory/javacodelab/string/LongestPrefix.java)
+* [无重复字符的最长子串](./src/main/java/org/razertory/javacodelab/string/LongestUniq.java)
 
 ### 排序
 * [冒泡排序](./src/main/java/org/razertory/javacodelab/sort/BubbleSort.java)

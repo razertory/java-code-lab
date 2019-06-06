@@ -1,12 +1,11 @@
 package org.razertory.javacodelab.string;
 
+/**
+ * Java 中 String 为不可变对象
+ * s1和s2被分配到永久区(方法区)的运行时常量池的相同的内存
+ */
 public class StringEqual {
-
-	/**
-	 * 字符串比较
-	 */
 	public static void main(String[] args) {
-		// s1和s2被分配到永久区(方法区)的运行时常量池的相同的内存
 		String s1 = "abc";
 		String s2 = "abc";
 		
