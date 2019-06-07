@@ -7,15 +7,15 @@ import java.math.BigInteger;
  * 其中的 label 表示节点的实际内容，为了满足节点的唯一性和能够作为 key 存入 hashmap，重写掉 equals 和 hashcode
  */
 public class Vertex {
-    private String label;
+    private int val;
 
-    Vertex(String label) {
-        this.label = label;
+    Vertex(int val) {
+        this.val = val;
     }
 
     @Override
     public int hashCode() {
-        return new BigInteger(this.label.getBytes()).intValue();
+        return val;
     }
 
     @Override

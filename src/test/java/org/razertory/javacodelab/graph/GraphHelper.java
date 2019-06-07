@@ -5,30 +5,44 @@ import org.razertory.javacodelab.graph.matrix.MGraph;
 
 public class GraphHelper {
 
+    /**
+     *  创建一个默认的图
+     *  0 --------- 1
+     *  |         / | \
+     *  |       /   |  \
+     *  |     /     |   2
+     *  |   /       |   /
+     *  | /         | /
+     *  4 -------- 3
+     */
+
+    /**
+     * 临接表
+     * 先创建 vertex，再创建 edge
+     */
     public static AGraph createAGraph() {
         AGraph agraph = new AGraph();
-        agraph.addVertex("Bob");
-        agraph.addVertex("Alice");
-        agraph.addVertex("Mark");
-        agraph.addVertex("Rob");
-        agraph.addVertex("Maria");
-        agraph.addEdge("Bob", "Alice");
-        agraph.addEdge("Bob", "Rob");
-        agraph.addEdge("Alice", "Mark");
-        agraph.addEdge("Rob", "Mark");
-        agraph.addEdge("Alice", "Maria");
-        agraph.addEdge("Rob", "Maria");
+        agraph.addVertex(0);
+        agraph.addVertex(1);
+        agraph.addVertex(2);
+        agraph.addVertex(3);
+        agraph.addVertex(4);
+        agraph.addEdge(0, 1);
+        agraph.addEdge(0, 4);
+        agraph.addEdge(1, 2);
+        agraph.addEdge(1, 3);
+        agraph.addEdge(1, 4);
+        agraph.addEdge(3, 4);
         return agraph;
     }
 
     /*
      *    0  1  2  3  4
-     * 0  0
+     * 0  0  1
      * 1     0
      * 2        0
      * 3           0
      * 4              0
-     *
      */
     public static MGraph createMgraph() {
         MGraph mGraph = new MGraph(5);
