@@ -45,10 +45,10 @@ class KthLargest {
     }
 
     // 大的左边，小的右边
-    private int partition(int[] array, int low, int high){
+    private int partition(int[] array, int low, int high) {
         int left = low;
         int pivot = array[high];
-        for(int i = low; i < high; i++) {
+        for (int i = low; i < high; i++) {
             if (array[i] > pivot) {
                 int temp = array[i];
                 array[i] = array[left];
