@@ -19,27 +19,32 @@ public class AGraphTest {
         Assert.assertTrue(aGraph.adjVertices.containsKey(new Vertex(5)));
     }
 
-//    @Test
-//    public void removeVertex() {
-//        aGraph.addVertex("Nikita");
-//        aGraph.removeVertex("Nikita");
-//    }
+    @Test
+    public void removeVertex() {
+        aGraph.addVertex(5);
+        aGraph.removeVertex(5);
+        Assert.assertFalse(aGraph.adjVertices.containsKey(new Vertex(5)));
+    }
 //
-//    @Test
-//    public void addEdge() {
-//        aGraph.addVertex("Nikita");
-//        aGraph.addEdge("Bob", "Nikita");
-//    }
-//
-//    @Test(expected = NullPointerException.class)
-//    public void addErrorEdge() {
-//        aGraph.addEdge("Bob", "Nikita");
-//    }
-//
-//    @Test
-//    public void removeEdge() {
-//        aGraph.addVertex("Nikita");
-//        aGraph.addEdge("Bob", "Nikita");
-//        aGraph.removeEdge("Nikita", "Bob");
-//    }
+    @Test
+    public void addEdge() {
+        aGraph.addVertex(5);
+        aGraph.addEdge(5, 2);
+        Assert.assertTrue(aGraph.adjVertices.containsKey(new Vertex(5)));
+        Assert.assertTrue(aGraph.adjVertices.get(new Vertex(5)).contains(new Vertex(2)));
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void addErrorEdge() {
+        aGraph.addEdge(8, 9);
+    }
+
+    @Test
+    public void removeEdge() {
+        aGraph.addVertex(5);
+        aGraph.addEdge(5, 2);
+        aGraph.removeEdge(5, 2);
+        Assert.assertTrue(aGraph.adjVertices.containsKey(new Vertex(5)));
+        Assert.assertFalse(aGraph.adjVertices.get(new Vertex(5)).contains(new Vertex(2)));
+    }
 }
