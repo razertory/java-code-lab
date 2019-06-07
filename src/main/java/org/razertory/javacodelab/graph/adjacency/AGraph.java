@@ -11,13 +11,17 @@ import java.util.List;
  */
 public class AGraph {
     public HashMap<Vertex, List<Vertex>> adjVertices;
+    public int V;
 
-    public AGraph(){
+
+    public AGraph(int v){
+        this.V = v;
         this.adjVertices = new HashMap<>();
     }
 
     public void addVertex(int val) {
         adjVertices.putIfAbsent(new Vertex(val), new ArrayList<>());
+        this.V++;
     }
 
     public void addEdge(int val1, int val2) {
@@ -29,6 +33,7 @@ public class AGraph {
 
     public void removeVertex(int val) {
         adjVertices.remove(new Vertex(val));
+        this.V--;
     }
 
     public void removeEdge(int val1, int val2) {

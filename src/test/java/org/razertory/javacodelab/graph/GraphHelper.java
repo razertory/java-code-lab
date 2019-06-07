@@ -21,7 +21,7 @@ public class GraphHelper {
      * 先创建 vertex，再创建 edge
      */
     public static AGraph createAGraph() {
-        AGraph agraph = new AGraph();
+        AGraph agraph = new AGraph(5);
         agraph.addVertex(0);
         agraph.addVertex(1);
         agraph.addVertex(2);
