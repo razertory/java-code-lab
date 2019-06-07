@@ -11,7 +11,7 @@ import java.util.LinkedList;
  * BFS 遍历图
  **/
 public class Graph {
-    public ArrayList<Integer> bsfSearch(AGraph aGraph, Vertex start) {
+    public ArrayList<Integer> bfsSearch(AGraph aGraph, Vertex start) {
         ArrayList<Integer> order = new ArrayList<>();
         HashMap<Vertex, Boolean> visited = new HashMap<>();
         LinkedList<Vertex> queue = new LinkedList<>();
