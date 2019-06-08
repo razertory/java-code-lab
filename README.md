@@ -58,6 +58,10 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 * 深度遍历二叉树[先序，中序，后序](./src/main/java/org/razertory/javacodelab/dfs/Tree.java)
 * [深度度遍历图](./src/main/java/org/razertory/javacodelab/dfs/Graph.java)
 
+### 回溯法
+* [N 皇后问题](./src/main/java/org/razertory/javacodelab/backtrack/NQueen.java)
+* [无重复数组的全排列](./src/main/java/org/razertory/javacodelab/backtrack/SubSet.java)
+
 ### 动态规划
 * 三种方式实现斐波那契[ 递归，迭代，结果缓存](./src/main/java/org/razertory/javacodelab/dp/Fibonacci.java)
 * [硬币找零问题](./src/main/java/org/razertory/javacodelab/dp/Coin.java)

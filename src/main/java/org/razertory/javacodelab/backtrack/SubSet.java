@@ -1,4 +1,4 @@
-package org.razertory.javacodelab.dfs;
+package org.razertory.javacodelab.backtrack;
 
 import java.util.ArrayList;
 import java.util.Arrays;

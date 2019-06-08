@@ -1,8 +1,8 @@
-package org.razertory.javacodelab.dfs;
+package org.razertory.javacodelab.backtrack;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.razertory.javacodelab.dfs.SubSet;
+import org.razertory.javacodelab.backtrack.SubSet;
 
 import java.util.Arrays;
 import java.util.List;
