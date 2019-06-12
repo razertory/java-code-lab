@@ -40,21 +40,34 @@ public class GraphHelper {
         return agraph;
     }
 
+    /**
+     *  创建一个带权默认的图
+     *  0 ----(1)----- 1
+     *  |         /   | \  (2)
+     *  |       /    |   \
+     *  |(4)  /(4)  (3)   | 2
+     *  |   /        |   /
+     *  | /          | /  (2)
+     *  4 ----(3)---- 3
+     *
+     */
+
     /*
      *    0  1  2  3  4
-     * 0  0  1
-     * 1     0
-     * 2        0
-     * 3           0
-     * 4              0
+     *   ---------------
+     * 0| 0  1  0  0  4
+     * 1| 1  0  2  3  4
+     * 2| 0  2  0  2  0
+     * 3| 0  3  2  0  3
+     * 4| 4  4  0  3  0
      */
     public static MGraph createMgraph() {
         MGraph mGraph = new MGraph(5);
-        mGraph.addEdge(0, 1);
-        mGraph.addEdge(2, 3);
-        mGraph.addEdge(3, 4);
-        mGraph.addEdge(4, 0);
-        mGraph.addEdge(4, 2);
+        mGraph.addEdge(0, 1, 1);
+        mGraph.addEdge(2, 3, 3);
+        mGraph.addEdge(3, 4, 4);
+        mGraph.addEdge(4, 0, 4);
+        mGraph.addEdge(4, 2, 2);
         return mGraph;
     }
 }
