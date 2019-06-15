@@ -1,9 +1,5 @@
 package org.razertory.javacodelab.graph;
 
-import org.razertory.javacodelab.bfs.Graph;
-
-import java.util.Arrays;
-
 /**
  * Prim 最小生成树(无向连同带权图)
  * 本质上是贪心算法
@@ -24,9 +20,7 @@ public class MSTPrim {
             key[i] = Integer.MAX_VALUE;
         }
 
-        parent[0] = -1;
-
-        for (int count = 0; count < vertexCount; count++) {
+        for (int count = 0; count < vertexCount - 1; count++) {
             int u = minKey(key, mstSet);
 
             if (u == -1) continue;
@@ -36,7 +30,7 @@ public class MSTPrim {
             for (int v = 0; v < vertexCount; v++) {
                 if (matrix[u][v] != 0 && !mstSet[v] && matrix[u][v] < key[v]) {
                     parent[v] = u;
-                    key[u] = matrix[u][v];
+                    key[v] = matrix[u][v];
                 }
             }
         }

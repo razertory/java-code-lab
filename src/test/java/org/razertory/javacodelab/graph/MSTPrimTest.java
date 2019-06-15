@@ -15,6 +15,8 @@ public class MSTPrimTest {
         MGraph mGraph = GraphHelper.createMgraph();
         MSTPrim mstPrim = new MSTPrim(mGraph.map.length);
         int[] ret = mstPrim.mst(mGraph.map);
-        System.out.println(ret);
+        for (int i = 1; i < mGraph.map.length; i++) {
+            System.out.println(ret[i] + " - " + i + "\t" + mGraph.map[i][ret[i]]);
+        }
     }
 }

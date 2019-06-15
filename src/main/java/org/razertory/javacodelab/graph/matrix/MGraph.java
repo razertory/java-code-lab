@@ -14,9 +14,11 @@ public class MGraph {
 
     public void deleteEdge(int start, int end) {
         this.map[start][end] = 0;
+        this.map[end][start] = 0;
     }
 
     public void addEdge(int start, int end, int value) {
         this.map[start][end] = value;
+        this.map[end][start] = value;
     }
 }
