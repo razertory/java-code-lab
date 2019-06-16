@@ -49,6 +49,7 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 ### 图
 * [矩阵表示法](./src/main/java/org/razertory/javacodelab/graph/matrix)
 * [临接表表示法](./src/main/java/org/razertory/javacodelab/graph/adjacency)
+* 最小生成树 [Prim](./src/main/java/org/razertory/javacodelab/graph/MSTPrim.java)
 
 ### 广度优先搜索
 * [广度遍历二叉树](./src/main/java/org/razertory/javacodelab/bfs/Tree.java)
