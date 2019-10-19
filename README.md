@@ -33,6 +33,7 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 * [归并排序](./src/main/java/org/razertory/javacodelab/sort/MergeSort.java)
 * [快速排序](./src/main/java/org/razertory/javacodelab/sort/QuickSort.java)
 * [选择排序](./src/main/java/org/razertory/javacodelab/sort/SelectionSort.java)
+* [堆排序](./src/main/java/org/razertory/javacodelab/sort/HeapSort.java)
 * 第 K 大的数 [快速排序法／堆排序法](./src/main/java/org/razertory/javacodelab/sort/KthLargest.java)
 
 ### 链表
@@ -77,7 +78,7 @@ Java 实现的数据结构/算法以及计算机科学相关的代码和完整�
 * [IO 客户端](./src/main/java/org/razertory/javacodelab/io/IOClient.java), [IO服务端](./src/main/java/org/razertory/javacodelab/io/IOServer.java)
 
 ### Java 并发
-* 按顺序打印 (./src/main/java/org/razertory/javacodelab/concurrency/printinorder/Solution1.java)
+* [按顺序打印](./src/main/java/org/razertory/javacodelab/concurrency/printinorder/Solution1.java)
 
 # License
 The MIT License (MIT)
