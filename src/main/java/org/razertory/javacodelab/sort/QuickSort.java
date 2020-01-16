@@ -14,7 +14,7 @@ class QuickSort {
         }
     }
 
-    private int partition(int[] array, int low, int high) {
+    int partition(int[] array, int low, int high) {
         int pivot = array[low], index = low;
         for (int i = low; i <= high; i++) {
             if (array[i] < pivot) {
@@ -26,23 +26,25 @@ class QuickSort {
         return index;
     }
 
+
+
+    // hoare 分组法
+	int hoarePartition(int[] array, int low, int high) {
+		int p = array[low];
+		int i = low, j = high;
+		while(i < j) {
+			while (i < j && array[j] > p) j--;
+			if(i < j) swap(array, i, j);
+			while (i < j && array[i] <= p) i++;
+			if(i < j) swap(array, i, j);
+		}
+		return i;
+	}
+
     private void swap(int[] array, int i, int j) {
         int temp = array[i];
         array[i] = array[j];
         array[j] = temp;
     }
-
-    // 第二种 partition
-//	private int partition(int[] array, int low, int high) {
-//		int p = array[low];
-//		int i = low, j = high;
-//		while(i < j) {
-//			while (i < j && array[j] > p) j--;
-//			if(i < j) swap(array, i, j);
-//			while (i < j && array[i] <= p) i++;
-//			if(i < j) swap(array, i, j);
-//		}
-//		return i;
-//	}
 
 }
